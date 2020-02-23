@@ -2,29 +2,31 @@
 
 # BotDetect Captcha Recognition
 
+Captcha recognition framework with Python, Selenium, Speech Recognition and Machine Learning.
+
 ### Table of Contents:<br/>
 1. <a href="#about">About the project</a>
-3. <a href="#doc">Official Documentation</a>
-4. <a href="#dev">Dev Environment</a>
-5. <a href="#tech_issues">Tech Issues and Problem Solving</a>
-7. [Selenium Webdriver](https://github.com/ikostan/BotDetectCaptcha/tree/master/drivers):<br/>
+2. <a href="#doc">Official Documentation</a>
+3. <a href="#dev">Dev Environment</a>
+4. <a href="#tech_issues">Tech Issues and Problem Solving</a>
+5. [Selenium Webdriver](https://github.com/ikostan/BotDetectCaptcha/tree/master/drivers):<br/>
     - [ChromeDriver](https://github.com/ikostan/BotDetectCaptcha/tree/master/drivers/chrome)<br/>
     - [Microsoft WebDriver](https://github.com/ikostan/BotDetectCaptcha/tree/master/drivers/microsoft_edge)<br/>
     - [geckodriver](https://github.com/ikostan/BotDetectCaptcha/tree/master/drivers/mozilla_geckodriver)<br/>
-8. [Web Element](https://github.com/ikostan/BotDetectCaptcha/tree/master/elements)<br/>
-9. [Expected Results](https://github.com/ikostan/BotDetectCaptcha/tree/master/expected_results)<br/>
-10. [Page/Element Locators](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_locators)<br/>
+6. [Web Element](https://github.com/ikostan/BotDetectCaptcha/tree/master/elements)<br/>
+7. [Expected Results](https://github.com/ikostan/BotDetectCaptcha/tree/master/expected_results)<br/>
+8. [Page/Element Locators](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_locators)<br/>
     - [UML diagram](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_locators/uml)
-11. [Page Object Model (POM)](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_object_models)<br/>
-12. [Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests)<br/>   
+9. [Page Object Model (POM)](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_object_models)<br/>
+10. [Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests)<br/>   
     i. [Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests)<br/>
     - [Base Cases](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_cases)<br/>
     - [Base Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_content_tests)<br/>
     - [Unique Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_content_tests)
-13. [Utils](https://github.com/ikostan/BotDetectCaptcha/tree/master/utils)<br/>
+11. [Utils](https://github.com/ikostan/BotDetectCaptcha/tree/master/utils)<br/>
 
 ### <a id="about"></a>About the project:<br/>
-The main purpose is to demonstrate the professional abilities of writing Captcha recognition framework using the Python language, Selenium and Machine Learning.<br/>
+The main purpose is to demonstrate the professional abilities of writing Captcha recognition framework using the Python language, Speech Recognition, Selenium and Machine Learning.<br/>
 
 **Main Objectives:**<br/>
 
