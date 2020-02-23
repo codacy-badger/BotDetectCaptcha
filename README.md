@@ -24,7 +24,7 @@
 13. [Utils](https://github.com/ikostan/BotDetectCaptcha/tree/master/utils)<br/>
 
 ### <a id="about"></a>About the project:<br/>
-The main purpose is to demonstrate the professional abilities of writing browser automation using the Python language with Selenium.<br/>
+The main purpose is to demonstrate the professional abilities of writing Captcha recognition framework using the Python language, Selenium and Machine Learning.<br/>
 
 **Main Objectives:**<br/>
 
