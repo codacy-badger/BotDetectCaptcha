@@ -2,7 +2,7 @@
 
 <br/>   
 <div align="center"> 
-<img width="60%" height="60%" src="https://github.com/ikostan/BotDetectCaptcha/blob/master/img/python-computer-program-logo.jpg" hspace="20">
+<img width="60%" height="60%" src="https://github.com/ikostan/BotDetectCaptcha/blob/master/img/python_logo.PNG hspace="20">
 </div>
 <br/>
 
