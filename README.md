@@ -59,7 +59,7 @@ The main purpose is to demonstrate the professional abilities of writing Captcha
 
 1. [Python 3.7.4](https://www.python.org/downloads/release/python-374/)<br/>
 2. [Selenium 3.141.0](https://pypi.org/project/selenium/)<br/>
-3. [PyTest 5.0.0](https://pypi.org/project/pytest/)<br/>
+3. [PyTest 5.3.5](https://pypi.org/project/pytest/)<br/>
 4. [Allure Framework 2.12.1](http://allure.qatools.ru/)<br/>
 5. [Win 10 (64 bit)](https://www.microsoft.com/en-ca/software-download/windows10)<br/>
 6. [PyCharm 2019.2 (Community Edition)](https://www.jetbrains.com/pycharm/download/#section=windows)<br/>
@@ -80,9 +80,9 @@ Full list of dependencies see [here.](https://github.com/ikostan/BotDetectCaptch
 **Note:** In order to instantiate webdriver I use Driver class of my own. For more info please look [here](https://github.com/ikostan/BotDetectCaptcha/tree/master/utils).<br/>
 
 ### Supported/tested browsers:
-- Chrome: v75 (64 bit)
-- Firefox: v68 (64  bit)
-- Edge: v17 and above
+- Chrome: v80 (64 bit)
+- Firefox: v73 (64  bit)
+- Edge: v18.18362
 
 ### Tech Issues and Problem Solving:<br/>
 <a id="tech_issues"></a>
@@ -125,7 +125,7 @@ For more info please see [Enable Pytest for you project](https://www.jetbrains.c
 2. navigate to project directory, for example:<br/> 
 
 ```bash
-cd C:\Users\superadmin\Desktop\Python\CodinGame
+cd C:\Users\superadmin\Documents\GitHub\CaptchaRecognition\BotDetectCaptcha
 ```
 
 3. run following command:<br/> 
@@ -215,7 +215,13 @@ You can also install a standalone version of WebDriver in one of two ways:<br/>
     * Search “Manage optional features” from Start, then select “Add a Feature,” “WebDriver.”<br/>
     * Install via DISM by running the following command in an elevated command prompt:
     <br/>```DISM.exe /Online /Add-Capability /CapabilityName:Microsoft.WebDriver~~~~0.0.1.0```<br/>
-    
+
+<br/>   
+<div align="center"> 
+<img width="60%" height="60%" src="https://github.com/ikostan/BotDetectCaptcha/blob/master/img/MS_Edge_driver_install.PNG" hspace="20">
+</div>
+<br/>
+
 This also means that MS will no longer be providing standalone downloads for Microsoft WebDriver going forward<br/>
 Source: https://blogs.windows.com/msedgedev/2018/06/14/webdriver-w3c-recommendation-feature-on-demand/#Rg8g2hRfjBQQVRXy.97
 
