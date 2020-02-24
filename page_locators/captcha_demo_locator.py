@@ -57,4 +57,4 @@ class CaptchaDemoLocator(BasePageLocator):
 	IMAGE_WIDTH_INPUT = (By.XPATH, "//*[@id=\"WidthTextBox\"]")
 
 	# Image Height Input
-    IMAGE_HEIGHT_INPUT = (By.XPATH, "//*[@id=\"HeightTextBox\"]")
+	IMAGE_HEIGHT_INPUT = (By.XPATH, "//*[@id=\"HeightTextBox\"]")
