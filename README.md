@@ -5,7 +5,7 @@
 <img width="10%" height="10%" src="https://github.com/ikostan/BotDetectCaptcha/blob/master/img/python_logo.PNG" hspace="5">
 <img width="18%" height="18%" src="https://github.com/ikostan/BotDetectCaptcha/blob/master/img/artificial-intelligence.png" hspace="5">
 <img width="12%" height="12%" src="https://github.com/ikostan/BotDetectCaptcha/blob/master/img/selenium-computer-icon.jpg" hspace="5">
-<img width="10%" height="10%" src="https://github.com/ikostan/BotDetectCaptcha/blob/master/img/iconfinder_Microphone_728970.png" hspace="5">
+<img width="11%" height="11%" src="https://github.com/ikostan/BotDetectCaptcha/blob/master/img/iconfinder_Microphone_728970.png" hspace="5">
 </div>
 <br/>
 
