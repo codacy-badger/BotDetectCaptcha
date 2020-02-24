@@ -1,5 +1,11 @@
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
+<br/>   
+<div align="center"> 
+<img width="60%" height="60%" src="https://github.com/ikostan/BotDetectCaptcha/blob/master/img/python-computer-program-logo.jpg" hspace="20">
+</div>
+<br/>
+
 # BotDetect Captcha Recognition
 
 Captcha recognition framework with Python, Selenium, Speech Recognition and Machine Learning.
