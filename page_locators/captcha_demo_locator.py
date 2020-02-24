@@ -58,3 +58,6 @@ class CaptchaDemoLocator(BasePageLocator):
 
 	# Image Height Input
 	IMAGE_HEIGHT_INPUT = (By.XPATH, "//*[@id=\"HeightTextBox\"]")
+
+	# Apply Button
+	APPLY_BTN = (By.XPATH, "//*[@id=\"ApplyButton\"]")
