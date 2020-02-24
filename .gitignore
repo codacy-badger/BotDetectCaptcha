@@ -123,11 +123,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-.idea/BotDetectCaptcha.iml
-.idea/BotDetectCaptcha.iml
-.idea/BotDetectCaptcha.iml
-.idea/misc.xml
-.idea/BotDetectCaptcha.iml
-.idea/misc.xml
+.idea/
 .idea/misc.xml
 .idea/BotDetectCaptcha.iml
