@@ -5,13 +5,12 @@
 <img width="10%" height="10%" src="https://github.com/ikostan/BotDetectCaptcha/blob/master/img/python_logo.PNG" hspace="20">
 <img width="12%" height="12%" src="https://github.com/ikostan/BotDetectCaptcha/blob/master/img/selenium-computer-icon.jpg" hspace="10">
 <img width="18%" height="18%" src="https://github.com/ikostan/BotDetectCaptcha/blob/master/img/artificial-intelligence.png" hspace="10">
-<img width="10%" height="10%" src="https://github.com/ikostan/BotDetectCaptcha/blob/master/img/iconfinder_Microphone_728970.png" hspace="10">
 </div>
 <br/>
 
 # BotDetect Captcha Recognition
 
-Captcha recognition framework with Python, Selenium, Speech Recognition and Machine Learning.
+Captcha recognition framework with Python, Selenium, and Machine Learning.
 
 ### Table of Contents:<br/>
 1. <a href="#about">About the project</a>
@@ -35,7 +34,7 @@ Captcha recognition framework with Python, Selenium, Speech Recognition and Mach
 11. [Utils](https://github.com/ikostan/BotDetectCaptcha/tree/master/utils)<br/>
 
 ### <a id="about"></a>About the project:<br/>
-The main purpose is to demonstrate the professional abilities of writing Captcha recognition framework using the Python language, Speech Recognition, Selenium and Machine Learning.<br/>
+The main purpose is to demonstrate the professional abilities of writing Captcha recognition framework using the Python language,Selenium and Machine Learning.<br/>
 
 **Main Objectives:**<br/>
 
