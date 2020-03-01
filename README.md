@@ -34,7 +34,11 @@ Captcha recognition framework with Python, Selenium, and Machine Learning.
 11. [Utils](https://github.com/ikostan/BotDetectCaptcha/tree/master/utils)<br/>
 
 ### <a id="about"></a>About the project:<br/>
-The main purpose is to demonstrate the professional abilities of writing Captcha recognition framework using the Python language,Selenium and Machine Learning. [BotDetect CAPTCHA project](https://captcha.com) is used as a source for captcha images. [This page](https://captcha.com/demos/features/captcha-demo.aspx) demonstrates how powerful and customizable BotDetect is. Feel free to experiment with various BotDetect Captcha parameters and their combinations.
+The main purpose is to learn machine learning platform and demonstrate the professional abilities of writing Captcha recognition framework using the Python language,Selenium and Machine Learning. 
+
+[BotDetect CAPTCHA project](https://captcha.com) is used as a source for captcha images. [This page](https://captcha.com/demos/features/captcha-demo.aspx) demonstrates how powerful and customizable BotDetect is. Feel free to experiment with various BotDetect Captcha parameters and their combinations.
+
+As a reference for the project I used [TensorFlow CAPTCHA solver](https://pylessons.com/TensorFlow-CAPTCHA-solver-training/) tutorials.
 
 **Main Objectives:**<br/>
 
@@ -61,6 +65,8 @@ The main purpose is to demonstrate the professional abilities of writing Captcha
 - ['Selenium with Python' official documentation webpage](https://selenium-python.readthedocs.io)<br/>
 - [PyCharm - Manage dependencies using requirements.txt](https://www.jetbrains.com/help/pycharm/managing-dependencies.html)<br/>
 - [Allure Framework](https://docs.qameta.io/allure/)<br/>
+- [TensorFlow CAPTCHA solver](https://pylessons.com/TensorFlow-CAPTCHA-solver-training/)<br/>
+- [BotDetect CAPTCHA Generator](https://captcha.com/)<br/>
 
 ### Dev Environment:<br/>
 <a id="dev"></a>
@@ -70,11 +76,12 @@ The main purpose is to demonstrate the professional abilities of writing Captcha
 3. [PyTest 5.3.5](https://pypi.org/project/pytest/)<br/>
 4. [Allure Framework 2.12.1](http://allure.qatools.ru/)<br/>
 5. [Win 10 (64 bit)](https://www.microsoft.com/en-ca/software-download/windows10)<br/>
-6. [PyCharm 2019.2 (Community Edition)](https://www.jetbrains.com/pycharm/download/#section=windows)<br/>
-7. [GitHub Desktop 2.1.0](https://desktop.github.com/)<br/>
+6. [PyCharm 2019.3 (Community Edition)](https://www.jetbrains.com/pycharm/download/#section=windows)<br/>
+7. [GitHub Desktop 2.3.1](https://desktop.github.com/)<br/>
 8. [GIT 2.22.0.windows.1](https://git-scm.com/download/win)<br/>
 9. [Java SE 8](https://www.oracle.com/technetwork/java/javase/overview/index.html)<br/>
-10. [Scoop](https://scoop.sh/)<br/>
+10. [LabelImg GitHub link](https://github.com/tzutalin/labelImg)<br/>
+11. [LabelImg download link](https://www.dropbox.com/s/tq7zfrcwl44vxan/windows_v1.6.0.zip?dl=1)<br/>
 
 ### Python Packages:<br/>
 Full list of dependencies see [here.](https://github.com/ikostan/BotDetectCaptcha/blob/master/requirements.txt)
