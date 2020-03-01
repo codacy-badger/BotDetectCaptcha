@@ -8,4 +8,4 @@ If you prefer a large sample of randomly generated Captcha image samples, you ca
 
 ## CAPTCHA images by style
 
-1. [AncientMosaic]()
+1. [AncientMosaic](https://github.com/ikostan/BotDetectCaptcha/tree/master/captcha_images/ancient_mosaic)
