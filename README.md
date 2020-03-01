@@ -34,7 +34,7 @@ Captcha recognition framework with Python, Selenium, and Machine Learning.
 11. [Utils](https://github.com/ikostan/BotDetectCaptcha/tree/master/utils)<br/>
 
 ### <a id="about"></a>About the project:<br/>
-The main purpose is to demonstrate the professional abilities of writing Captcha recognition framework using the Python language,Selenium and Machine Learning.<br/>
+The main purpose is to demonstrate the professional abilities of writing Captcha recognition framework using the Python language,Selenium and Machine Learning. [BotDetect CAPTCHA project](https://captcha.com) is used as a source for captcha images. [This page](https://captcha.com/demos/features/captcha-demo.aspx) demonstrates how powerful and customizable BotDetect is. Feel free to experiment with various BotDetect Captcha parameters and their combinations.
 
 **Main Objectives:**<br/>
 
