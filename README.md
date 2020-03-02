@@ -33,7 +33,9 @@ Captcha recognition framework with Python, Selenium, and Machine Learning.
     - [Base Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_content_tests)<br/>
     - [Unique Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_content_tests)
 11. [Utils](https://github.com/ikostan/BotDetectCaptcha/tree/master/utils)<br/>
-12. <a href="#disclaimer">Disclaimer</a>
+12. <a href="#browsers">Supported Web Browsers</a>
+13. <a href="#disclaimer">Disclaimer</a>
+14. <a id="#tech_issues">Tech Issues and Problem Solving</a>
 
 ### About the project
 
@@ -94,6 +96,7 @@ As a reference for the project I used [TensorFlow CAPTCHA solver](https://pyless
 Full list of dependencies see [here.](https://github.com/ikostan/BotDetectCaptcha/blob/master/requirements.txt)
 
 ### Nice to have tools
+
 1. [Fiddler: The free web debugging proxy](https://www.telerik.com/fiddler)
 2. [Kite: Code Faster in Python](https://kite.com/)
 3. [Ragnorex: Smart Selector Generator](https://www.ranorex.com/selocity/browser-extension)
@@ -103,16 +106,20 @@ Full list of dependencies see [here.](https://github.com/ikostan/BotDetectCaptch
 
 ### Supported/tested browsers
 
+<a id="browsers"></a>
+
 - Chrome: v80 (64 bit)
 - Firefox: v73 (64  bit)
 - Edge: v18.18362
 
 ### Disclaimer
+
 <a id="disclaimer"></a>
 
 Using this software to violate the terms and conditions of any third-party service is strictly against the intent of this software. By using this software, you are acknowledging this fact and absolving the author or any potential liability or wrongdoing it may cause. This software is meant for testing and experimental purposes only, so please act responsibly.
 
-### Tech Issues and Problem Solving:<br/>
+### Tech Issues and Problem Solving
+
 <a id="tech_issues"></a>
 
 <details>
