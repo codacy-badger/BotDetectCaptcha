@@ -22,7 +22,7 @@ Captcha recognition framework with Python, Selenium, and Machine Learning.
     - [ChromeDriver](https://github.com/ikostan/BotDetectCaptcha/tree/master/drivers/chrome)<br/>
     - [Microsoft WebDriver](https://github.com/ikostan/BotDetectCaptcha/tree/master/drivers/microsoft_edge)<br/>
     - [geckodriver](https://github.com/ikostan/BotDetectCaptcha/tree/master/drivers/mozilla_geckodriver)<br/>
-6. [Web Element](https://github.com/ikostan/BotDetectCaptcha/tree/master/elements)<br/>
+6. [Web Element](https://github.com/ikostan/BotDetectCaptcha/tree/master/element_object_models)<br/>
 7. [Expected Results](https://github.com/ikostan/BotDetectCaptcha/tree/master/expected_results)<br/>
 8. [Page/Element Locators](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_locators)<br/>
     - [UML diagram](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_locators/uml)
