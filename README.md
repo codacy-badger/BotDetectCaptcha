@@ -32,9 +32,11 @@ Captcha recognition framework with Python, Selenium, and Machine Learning.
     - [Base Cases](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_cases)<br/>
     - [Base Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_content_tests)<br/>
     - [Unique Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_content_tests)
-11. [Utils](https://github.com/ikostan/BotDetectCaptcha/tree/master/utils)<br/>
-12. <a href="#browsers">Supported Web Browsers</a>
-13. <a href="#disclaimer">Disclaimer</a>
+11. [Software](https://github.com/ikostan/BotDetectCaptcha/tree/master/software)<br/>
+12. [CAPTCHA Images](https://github.com/ikostan/BotDetectCaptcha/tree/master/captcha_images)<br/>
+    - [AncientMosaic CAPTCHA Images](https://github.com/ikostan/BotDetectCaptcha/tree/master/captcha_images/ancient_mosaic)<br/>
+13. <a href="#browsers">Supported Web Browsers</a>
+14. <a href="#disclaimer">Disclaimer</a>
 
 ### About the project
 
