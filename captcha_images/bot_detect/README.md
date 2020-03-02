@@ -1,4 +1,4 @@
-# CAPTCHA Images
+# BotDetect CAPTCHA Images
 
 This Captcha demo provides a simple overview and comparison of all BotDetect Captcha image styles.
 
