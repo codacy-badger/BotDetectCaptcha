@@ -27,14 +27,15 @@ Captcha recognition framework with Python, Selenium, and Machine Learning.
 8. [Page/Element Locators](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_locators)<br/>
     - [UML diagram](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_locators/uml)
 9. [Page Object Model (POM)](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_object_models)<br/>
-10. [Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests)<br/>   
+10. [Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests)
     i. [Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests)<br/>
-    - [Base Cases](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_cases)<br/>
-    - [Base Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_content_tests)<br/>
-    - [Unique Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_content_tests)
+        - [Base Cases](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_cases)<br/>
+        - [Base Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_content_tests)<br/>
+        - [Unique Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_content_tests)
 11. [Software](https://github.com/ikostan/BotDetectCaptcha/tree/master/software)<br/>
 12. [CAPTCHA Images](https://github.com/ikostan/BotDetectCaptcha/tree/master/captcha_images)<br/>
-    - [AncientMosaic CAPTCHA Images](https://github.com/ikostan/BotDetectCaptcha/tree/master/captcha_images/ancient_mosaic)<br/>
+    1. [BotDetect CAPTCHA Images](https://github.com/ikostan/BotDetectCaptcha/tree/master/captcha_images/bot_detect)<br/>
+        - [AncientMosaic CAPTCHA Images](https://github.com/ikostan/BotDetectCaptcha/tree/master/captcha_images/bot_detect/ancient_mosaic)<br/>
 13. <a href="#browsers">Supported Web Browsers</a>
 14. <a href="#disclaimer">Disclaimer</a>
 
