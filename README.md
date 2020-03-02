@@ -12,7 +12,8 @@
 
 Captcha recognition framework with Python, Selenium, and Machine Learning.
 
-### Table of Contents:<br/>
+### Table of Contents
+
 1. <a href="#about">About the project</a>
 2. <a href="#doc">Official Documentation</a>
 3. <a href="#dev">Dev Environment</a>
@@ -32,8 +33,12 @@ Captcha recognition framework with Python, Selenium, and Machine Learning.
     - [Base Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_content_tests)<br/>
     - [Unique Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_content_tests)
 11. [Utils](https://github.com/ikostan/BotDetectCaptcha/tree/master/utils)<br/>
+12. <a href="#disclaimer">Disclaimer</a>
 
-### <a id="about"></a>About the project:<br/>
+### About the project
+
+<a id="about"></a>
+
 The main purpose is to learn machine learning platform and demonstrate the professional abilities of writing Captcha recognition framework using the Python language,Selenium and Machine Learning. 
 
 [BotDetect CAPTCHA project](https://captcha.com) is used as a source for captcha images. [This page](https://captcha.com/demos/features/captcha-demo.aspx) demonstrates how powerful and customizable BotDetect is. Feel free to experiment with various BotDetect Captcha parameters and their combinations.
@@ -68,7 +73,8 @@ As a reference for the project I used [TensorFlow CAPTCHA solver](https://pyless
 - [TensorFlow CAPTCHA solver](https://pylessons.com/TensorFlow-CAPTCHA-solver-training/)<br/>
 - [BotDetect CAPTCHA Generator](https://captcha.com/)<br/>
 
-### Dev Environment:<br/>
+### Dev Environment
+
 <a id="dev"></a>
 
 1. [Python 3.7.4](https://www.python.org/downloads/release/python-374/)<br/>
@@ -83,10 +89,11 @@ As a reference for the project I used [TensorFlow CAPTCHA solver](https://pyless
 10. [LabelImg GitHub link](https://github.com/tzutalin/labelImg)<br/>
 11. [LabelImg download link](https://www.dropbox.com/s/tq7zfrcwl44vxan/windows_v1.6.0.zip?dl=1)<br/>
 
-### Python Packages:<br/>
+### Python Packages
+
 Full list of dependencies see [here.](https://github.com/ikostan/BotDetectCaptcha/blob/master/requirements.txt)
 
-### Nice to have tools:
+### Nice to have tools
 1. [Fiddler: The free web debugging proxy](https://www.telerik.com/fiddler)
 2. [Kite: Code Faster in Python](https://kite.com/)
 3. [Ragnorex: Smart Selector Generator](https://www.ranorex.com/selocity/browser-extension)
@@ -94,10 +101,16 @@ Full list of dependencies see [here.](https://github.com/ikostan/BotDetectCaptch
 
 **Note:** In order to instantiate webdriver I use Driver class of my own. For more info please look [here](https://github.com/ikostan/BotDetectCaptcha/tree/master/utils).<br/>
 
-### Supported/tested browsers:
+### Supported/tested browsers
+
 - Chrome: v80 (64 bit)
 - Firefox: v73 (64  bit)
 - Edge: v18.18362
+
+### Disclaimer
+<a id="disclaimer"></a>
+
+Using this software to violate the terms and conditions of any third-party service is strictly against the intent of this software. By using this software, you are acknowledging this fact and absolving the author or any potential liability or wrongdoing it may cause. This software is meant for testing and experimental purposes only, so please act responsibly.
 
 ### Tech Issues and Problem Solving:<br/>
 <a id="tech_issues"></a>
