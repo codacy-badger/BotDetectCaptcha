@@ -27,7 +27,7 @@ Captcha recognition framework with Python, Selenium, and Machine Learning.
 8. [Page/Element Locators](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_locators)<br/>
     - [UML diagram](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_locators/uml)
 9. [Page Object Model (POM)](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_object_models)<br/>
-10. [Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests)
+10. [Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests)<br/>
     i. [Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests)<br/>
         - [Base Cases](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_cases)<br/>
         - [Base Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_content_tests)<br/>
