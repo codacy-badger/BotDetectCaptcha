@@ -10,4 +10,4 @@ For more info about image labeling watch this [video tutorial](https://www.youtu
 
 ## CAPTCHA images by style
 
-1. [AncientMosaic](https://github.com/ikostan/BotDetectCaptcha/tree/master/captcha_images/ancient_mosaic)
+1. [AncientMosaic](https://github.com/ikostan/BotDetectCaptcha/tree/master/captcha_images/bot_detect/ancient_mosaic)
