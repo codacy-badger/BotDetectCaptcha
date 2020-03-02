@@ -35,7 +35,7 @@ Captcha recognition framework with Python, Selenium, and Machine Learning.
 11. [Utils](https://github.com/ikostan/BotDetectCaptcha/tree/master/utils)<br/>
 12. <a href="#browsers">Supported Web Browsers</a>
 13. <a href="#disclaimer">Disclaimer</a>
-14. <a id="#tech_issues">Tech Issues and Problem Solving</a>
+14. <a href="#tech_issues">Tech Issues and Problem Solving</a>
 
 ### About the project
 
