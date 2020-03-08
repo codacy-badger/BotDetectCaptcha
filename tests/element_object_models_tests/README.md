@@ -16,4 +16,4 @@ See test structure diagram below. You can use it in order to organise the tests 
 
 **Test frameworks**: 
 - Pytest
-- Allure/Selenium
+- Selenium
