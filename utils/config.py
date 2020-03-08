@@ -2,13 +2,6 @@
 #  GitHub: https://github.com/ikostan
 #  LinkedIn: https://www.linkedin.com/in/egor-kostan/
 
-
-"""Environment Configuration Class"""
-
-#  Created by Egor Kostan.
-#  GitHub: https://github.com/ikostan
-#  LinkedIn: https://www.linkedin.com/in/egor-kostan/
-
 """Environment Configuration Class"""
 
 from utils.get_args_from_cli import get_args
@@ -26,7 +19,7 @@ class Config:
 		params = get_args()
 
 		self._base_url = {
-			'': 'https://www.google.com/',
+			'google': 'https://www.google.com/',
 			'integration': '',
 			'production': '',
 			'localhost': 'http://localhost:8080',
