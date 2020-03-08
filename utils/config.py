@@ -20,6 +20,7 @@ class Config:
 
 		self.__base_url = {
 			'google': 'https://www.google.com/',
+			'BotDetectCaptcha': 'https://captcha.com/',
 			'integration': '',
 			'production': '',
 			'localhost': 'http://localhost:8080',
