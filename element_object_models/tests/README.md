@@ -1,8 +1,6 @@
 # Automated tests for "Element Object Model" directory
 
-<div align="right"> 
-<img width="7%" height="7%" src="https://github.com/ikostan/ParaBankSeleniumAutomation/blob/master/images/iconfinder_stock_task_24333.png" hspace="10">
-</div>
+Here you can find some general info about testing of the "Element Object Model" directory.
 
 ## General guidelines 
 
