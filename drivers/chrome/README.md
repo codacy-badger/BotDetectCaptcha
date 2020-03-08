@@ -15,6 +15,26 @@ Useful resources:<br/>
 - [Getting started](https://chromedriver.chromium.org/getting-started)<br/>
 - [Downloads](https://chromedriver.chromium.org/downloads)
 
+
+### ChromeDriver Documentation
+
+- [Getting started with ChromeDriver on Desktop](https://chromedriver.chromium.org/getting-started) (Windows, Mac, Linux)
+    - [ChromeDriver with Android](https://chromedriver.chromium.org/getting-started/getting-started---android)
+    - [ChromeDriver with ChromeOS](https://chromedriver.chromium.org/getting-started/chromeos)
+- [ChromeOptions](https://chromedriver.chromium.org/capabilities), the capabilities of ChromeDriver
+- [Mobile emulation](https://chromedriver.chromium.org/mobile-emulation)
+- [Security Considerations](https://chromedriver.chromium.org/security-considerations), with recommendations on keeping ChromeDriver safe
+- [Chrome Extension installation](https://chromedriver.chromium.org/extensions)
+- [Verbose logging](https://chromedriver.chromium.org/logging) and [performance data logging](https://chromedriver.chromium.org/logging/performance-log)
+
+### Troubleshooting
+
+- [Chrome crashes immediately or doesn't start](https://chromedriver.chromium.org/help/chrome-doesn-t-start)
+- [ChromeDriver crashes](https://chromedriver.chromium.org/help/chromedriver-crashes)
+- [Clicking issues](https://chromedriver.chromium.org/help/clicking-issues)
+- [DevTools keeps closing](https://chromedriver.chromium.org/help/devtools-window-keeps-closing)
+- [Operation Not Supported when using remote debugging](https://chromedriver.chromium.org/help/operation-not-supported-when-using-remote-debugging)
+
 Source:<br/>
 
 [ChromeDriver - WebDriver for Chrome](https://chromedriver.chromium.org/home)
