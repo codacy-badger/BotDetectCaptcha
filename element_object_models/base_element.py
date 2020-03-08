@@ -17,7 +17,10 @@ class BaseElement:
     Base Web Element
     """
 
-    def __init__(self, driver: selenium.webdriver, explicit_wait_time: int, locator=None):
+    def __init__(self,
+                 driver: selenium.webdriver,
+                 explicit_wait_time: int,
+                 locator=None):
         self.__driver = self.__set_driver(driver)
         self.__explicit_wait_time = explicit_wait_time
         self.__locator = self.__set_locator(locator)
