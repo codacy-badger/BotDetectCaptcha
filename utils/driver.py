@@ -3,52 +3,110 @@
 #  LinkedIn: https://www.linkedin.com/in/egor-kostan/
 
 
-from appium import webdriver
+import os
+import platform
+from selenium import webdriver
+from utils.config import Config
+from utils.path_config import DriverPath
+from selenium.common.exceptions import WebDriverException
 
 
 class Driver:
-	"""
-	Driver Class.
-	Helps instantiate Appium driver.
-	Sources:
-	Appium Desired Capabilities: http://appium.io/docs/en/writing-running-appium/caps/
-	Python appium.webdriver.Remote() Examples: https://www.programcreek.com/python/example/100038/appium.webdriver.Remote
-	Create New Session: https://appium.readthedocs.io/en/stable/en/commands/session/create/
-	"""
 
-	def __init__(self):
+    _driver_path = {
 
-		# Appium Desired Capabilities:
-		# http://appium.io/docs/en/writing-running-appium/caps/
-		self._desired_capabilities = dict()
-		self._driver_instance = None
+        'chrome': DriverPath.CHROME_WEB_DRIVER_PATH,
+        'mozilla': DriverPath.MOZILLA_WEB_DRIVER_PATH,
+        'edge': DriverPath.EDGE_WEB_DRIVER_PATH
+    }
 
-	def set_capability(self, capability_type, capability):
-		"""
-		Set/add desired capability
-		:param capability_type:
-		:param capability:
-		:return:
-		"""
-		self._desired_capabilities[capability_type] = capability
+    def __init__(self, config: Config, is_debug=False):
+        self._config = config
+        self._is_debug = is_debug
+        self._browser = self._config.browser
+        self._driver = self._set_driver()
 
-	@property
-	def capabilities(self):
-		"""
-		Returns desired capabilities
-		:return:
-		"""
-		return self._desired_capabilities
+    def _set_driver(self):
 
-	@property
-	def driver_instance(self):
-		"""
-		Returns an instance of webdriver.Remote
-		:return:
-		"""
-		if self._driver_instance:
-			return self._driver_instance
-		else:
-			self._driver_instance = webdriver.Remote("http://127.0.0.1:4723/wd/hub",
-			                                         self._desired_capabilities)
-			return self._driver_instance
+        driver = None
+
+        if self._browser == 'chrome':
+            try:
+                if self._config.is_headless:
+                    chrome_options = webdriver.ChromeOptions()
+                    chrome_options.add_argument('headless')
+                    driver = webdriver.Chrome(options=chrome_options)
+                else:
+                    driver = webdriver.Chrome()
+
+            except WebDriverException as e:
+                if self._is_debug:
+                    print('\nPlease note: \n', e)
+
+                path = self._get_driver_path()
+
+                if self._is_debug:
+                    print('\nTrying to look for a \'chromedriver\' under:\n{}'.format(path))
+
+                driver = webdriver.Chrome(executable_path=path)
+
+        if self._browser == 'mozilla':
+            try:
+                if self._config.is_headless:
+                    # Set the MOZ_HEADLESS environment variable which casues Firefox to start in headless mode.
+                    # Source: https://intoli.com/blog/running-selenium-with-headless-firefox/
+                    os.environ['MOZ_HEADLESS'] = '1'
+                    driver = webdriver.Firefox()
+                else:
+                    driver = webdriver.Firefox()
+
+            except WebDriverException as e:
+                if self._is_debug:
+                    print('\nPlease note:', e.msg)
+                path = self._get_driver_path()
+                if self._is_debug:
+                    print('\nTrying to look for a \'geckodriver\' under:\n{}'.format(path))
+                driver = webdriver.Firefox(executable_path=path)
+
+        if self._browser == 'edge':
+            '''
+            Purpose:	Probe the underlying platform’s hardware, operating system,
+            and interpreter version information.
+            print('Version tuple:', platform.python_version_tuple())
+            print('Compiler     :', platform.python_compiler())
+            print('Build        :', platform.python_build())
+            '''
+
+            if sum(int(i) for i in platform.python_version_tuple()) > 13:
+                if self._is_debug:
+                    print('\nVersion:', platform.python_version())
+                    print('WebDriver is now a Feature On Demand')
+                    print('For more info please check: {}'.format(
+                        'https://blogs.windows.com/msedgedev/2018/06/14/'
+                        'webdriver-w3c-recommendation-feature-on-demand/#Rg8g2hRfjBQQVRXy.97\n'))
+                driver = webdriver.Edge()
+            else:
+                path = self._get_driver_path()
+                if self._is_debug:
+                    print('\nTrying to look for a \'MicrosoftWebDriver\' under:\n{}'.format(path))
+                driver = webdriver.Edge(executable_path=path)
+
+        return driver
+
+    def _get_root_dir(self):
+        root_dir = os.path.dirname(os.path.realpath(__file__)).split('\\')
+        dir_list = [str(i) for i in root_dir]
+        root_dir_index = dir_list.index("ParaBankSeleniumAutomation")
+        root = '\\'.join(root_dir[:root_dir_index + 1])
+        if self._is_debug:
+            print('ROOT DIR:\n', root)
+        return root
+
+    def _get_driver_path(self):
+        return self._get_root_dir() + self._driver_path[self._browser]
+
+    def get_driver(self):
+        return self._driver
+
+    def get_browser(self):
+        return self._browser
