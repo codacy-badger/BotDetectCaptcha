@@ -18,8 +18,8 @@ class BasePageModel:
 	def __init__(self,
 	             config: Config,
 	             driver: Driver,
-	             implicit_wait_time: int,
-	             explicit_wait_time: int):
+	             explicit_wait_time: int,
+	             implicit_wait_time: int = 0):
 		self.__config = config
 		self.__url = config.base_url + BasePageContent.URL
 		self.__implicit_wait_time = implicit_wait_time
@@ -28,7 +28,7 @@ class BasePageModel:
 		self.__set_implicit_wait(implicit_wait_time)
 
 	@property
-	def config(self):
+	def config(self) -> Config:
 		"""
 		Returns current configurations:
 			base_url
@@ -41,13 +41,43 @@ class BasePageModel:
 	@property
 	def implicit_wait_time(self) -> int:
 		"""
+		Returns Implicit Wait Time
 
+		Implicit waits are used to provide a default waiting
+		time (say 30 seconds) between each consecutive test
+		step/command across the entire test script. Thus, the
+		subsequent test step would only execute when the 30
+		seconds have elapsed after executing the previous test
+		step/command.
+
+		Being easy and simple to apply, implicit wait introduces
+		a few drawbacks as well. It gives rise to the test script
+		execution time as each of the commands would be ceased to
+		wait for a stipulated amount of time before resuming the
+		execution.
+
+		Source:
+		https://www.softwaretestinghelp.com/
+		selenium-webdriver-waits-selenium-tutorial-15/
 		:return:
 		"""
 		return self.__implicit_wait_time
 
 	@property
 	def explicit_wait_time(self) -> int:
+		"""
+		Returns Explicit Wait Time
+
+		Explicit waits are used to halt the execution until the time
+		a particular condition is met or the maximum time has elapsed.
+		Unlike Implicit waits, Explicit waits are applied for a
+		particular instance only.
+
+		Source:
+		https://www.softwaretestinghelp.com/
+		selenium-webdriver-waits-selenium-tutorial-15/
+		:return:
+		"""
 		return self.__explicit_wait_time
 
 	@staticmethod
@@ -68,12 +98,14 @@ class BasePageModel:
 		"""
 		The default value of time that can be set using Implicit wait is zero.
 		Its unit is in seconds.
+
 		Implicit wait remains associated with the web element until it gets destroyed.
 		:param implicit_wait_time:
 		:return:
 		"""
 		if type(implicit_wait_time) != int:
-			raise TypeError('\nERROR: wrong data type. Please set "implicit_wait_time" value as integer.\n')
+			raise TypeError('\nERROR: wrong data type. '
+			                'Please set "implicit_wait_time" value as integer.\n')
 		self.__driver.implicitly_wait(implicit_wait_time)
 		return None
 
