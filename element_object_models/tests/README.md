@@ -11,3 +11,11 @@
 **Test frameworks**: 
 - Pytest
 - Allure/Selenium
+
+### Test structure
+
+See test structure diagram below. You can use it in order to organise the tests in better and more logic way.
+
+<div align="center"> 
+<img width="100%" height="100%" src="https://github.com/ikostan/ParaBankSeleniumAutomation/blob/master/images/agile-process-plan-wits.png" hspace="10">
+</div>
