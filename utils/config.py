@@ -37,22 +37,25 @@ class Config:
 		self.__print_run_config()
 
 	@property
-	def browser(self):
+	def browser(self) -> str:
 		return self.__browser
 
 	@property
-	def base_url(self):
+	def base_url(self) -> str:
 		return self.__base_url
 
 	@property
 	def is_headless(self):
 		return self.__is_headless
 
-	def __print_run_config(self):
+	def __print_run_config(self) -> None:
 		"""
 		Prints run configurations
 		:return:
 		"""
 		print('\nRun configurations -> Browser: {}\n'
 		      'Run configurations -> Environment: {}\n'
-		      'Run configurations -> Is Headless: {}'.format(self.browser, self.base_url, self.is_headless))
+		      'Run configurations -> Is Headless: {}'.format(self.browser,
+		                                                     self.base_url,
+		                                                     self.is_headless))
+		return None
