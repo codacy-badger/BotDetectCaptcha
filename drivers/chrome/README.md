@@ -4,7 +4,7 @@
 <img width="5%" height="5%" src="https://github.com/ikostan/ParaBankSeleniumAutomation/blob/master/images/chrome.png" hspace="10">
 </div>
 
-WebDriver is an open source tool for automated testing of webapps across many browsers. It provides capabilities for navigating to web pages, user input, JavaScript execution, and more.  ChromeDriver is a standalone server that implements the W3C WebDriver standard. ChromeDriver is available for Chrome on Android and Chrome on Desktop (Mac, Linux, Windows and ChromeOS).<br/>  
+WebDriver is an open source tool for automated testing of webapps across many browsers. It provides capabilities for navigating to web pages, user input, JavaScript execution, and more.  ChromeDriver is a standalone server that implements the [W3C WebDriver standard](https://w3c.github.io/webdriver/webdriver-spec.html). ChromeDriver is available for Chrome on Android and Chrome on Desktop (Mac, Linux, Windows and ChromeOS).<br/>  
 
 You can view the current implementation status of the WebDriver standard [here](https://chromium.googlesource.com/chromium/src/+/master/docs/chromedriver_status.md).<br/>
 
