@@ -14,8 +14,4 @@ class BasePageLocator:
 	"""
 
 	# Website logo
-	LOGO = (By.XPATH, "//*[@id=\"top\"]/div[1]/div[2]/div/div[1]/a/span")
-
-	# Captcha Demo menu item
-	CAPTCHA_DEMO_MENU_ITEM = (By.XPATH, "//*[@id=\"left\"]/div[1]/ul/li[1]/ul/li[3]/a")
-
+	LOGO = (By.XPATH, "//*[@id=\"top\"]/div[2]/div[2]/div/div[1]/a/span")
