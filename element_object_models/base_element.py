@@ -112,9 +112,11 @@ class BaseElement:
     @staticmethod
     def __check_driver_type(driver):
 
-        # print('\nDRIVER TYPE: {}, {}\n'.format(type(driver),
-        # driver.capabilities['browserName']))  # Debug only
+        # print('\nDRIVER TYPE: {}\n'.format(type(driver)))  # Debug only
+        # print('\nDRIVER NAME: {}\n'.format(driver.capabilities['browserName']))  # Debug only
+
         if driver.capabilities['browserName'] == 'chrome':
+
             if not isinstance(driver, selenium.webdriver.chrome.webdriver.WebDriver):
                 raise TypeError('\nERROR: driver must be of type '
                                 '"selenium.webdriver.chrome_tests.webdriver.WebDriver"\n')
