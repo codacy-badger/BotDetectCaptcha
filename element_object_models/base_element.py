@@ -73,6 +73,16 @@ class BaseElement:
         """
         return self.__locator
 
+    @locator.setter
+    def locator(self, locator) -> None:
+        """
+        Set Base Element locator
+        :param locator:
+        :return:
+        """
+        self.__set_locator(locator)
+        return None
+
     def __find_element(self):
         """
         Returns web element or NoSuchElementException in
