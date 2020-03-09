@@ -44,6 +44,7 @@ class Driver:
                     print('\nPlease note: \n', e)
 
                 path = self._get_driver_path()
+                print('PATH: {}'.format(path))
 
                 if self._is_debug:
                     print('\nTrying to look for a \'chromedriver\' under:\n{}'.format(path))
@@ -96,7 +97,7 @@ class Driver:
     def _get_root_dir(self):
         root_dir = os.path.dirname(os.path.realpath(__file__)).split('\\')
         dir_list = [str(i) for i in root_dir]
-        root_dir_index = dir_list.index("ParaBankSeleniumAutomation")
+        root_dir_index = dir_list.index("BotDetectCaptcha")
         root = '\\'.join(root_dir[:root_dir_index + 1])
         if self._is_debug:
             print('ROOT DIR:\n', root)
