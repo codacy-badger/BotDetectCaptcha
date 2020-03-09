@@ -2,7 +2,7 @@
 #  GitHub: https://github.com/ikostan
 #  LinkedIn: https://www.linkedin.com/in/egor-kostan/
 
-from utils.config import Config
+from tests.config import Config
 from utils.driver import Driver
 
 
