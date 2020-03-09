@@ -5,7 +5,7 @@
 
 class DriverPath:
 
-    CHROME_WEB_DRIVER_PATH = '\\drivers\\chrome\\win32\\chromedriver.exe'
+    CHROME_WEB_DRIVER_PATH = '\\drivers\\chrome\\win32\\80.0.3987.106\\chromedriver.exe'
 
     EDGE_WEB_DRIVER_PATH = '\\drivers\\microsoft_edge\\win64\\MicrosoftWebDriver.exe'
 
