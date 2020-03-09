@@ -18,7 +18,7 @@ class BaseElementUnitTestCase(unittest.TestCase):
 		config = Config()
 
 		driver = Driver(config=config,
-		                is_debug=True)
+		                is_debug=True).get_driver()
 
 		locator = BasePageLocator().LOGO
 
