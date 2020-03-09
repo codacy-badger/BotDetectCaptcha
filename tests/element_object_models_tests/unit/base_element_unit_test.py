@@ -3,12 +3,9 @@
 #  LinkedIn: https://www.linkedin.com/in/egor-kostan/
 
 import unittest
-
-from page_locators.base_page_locator import BasePageLocator
 from tests.config import Config
 from utils.driver import Driver
-
-from element_object_models.base_element import BaseElement
+from page_object_models.base_page_model import BasePageModel
 
 
 class BaseElementUnitTestCase(unittest.TestCase):
@@ -17,13 +14,17 @@ class BaseElementUnitTestCase(unittest.TestCase):
 
 		config = Config()
 
-		driver = Driver(config=config,
-		                is_debug=True).get_driver()
+		driver = Driver(config=config, is_debug=True).get_driver()
 
-		locator = BasePageLocator().LOGO
+		page = BasePageModel(config=config,
+		                     driver=driver,
+		                     explicit_wait_time=30,
+		                     implicit_wait_time=5)
 
-		element = BaseElement(driver=driver,
-		                      explicit_wait_time=10,
-		                      locator=locator).element
+		page.go()
+
+		element = page.logo
 
 		self.assertIsNotNone(element)
+
+		page.close()
