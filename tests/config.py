@@ -2,6 +2,10 @@
 #  GitHub: https://github.com/ikostan
 #  LinkedIn: https://www.linkedin.com/in/egor-kostan/
 
+#  Created by Egor Kostan.
+#  GitHub: https://github.com/ikostan
+#  LinkedIn: https://www.linkedin.com/in/egor-kostan/
+
 """Environment Configuration Class"""
 
 from utils.get_args_from_cli import get_args
@@ -20,7 +24,7 @@ class Config:
 
 		self.__base_url = {
 			'google': 'https://www.google.com/',
-			'BotDetectCaptcha': 'https://captcha.com/',
+			'botdetectcaptcha': 'https://captcha.com/',
 			'localhost': 'http://localhost:8080',
 			'integration': '',
 			'production': '',
