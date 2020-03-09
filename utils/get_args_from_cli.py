@@ -22,15 +22,15 @@ def get_args():
 
 		if '--env=' in param:
 			env = str(param).replace('--env=', '')
-			# print("\nParam: {}".format(env))
+			# print("\nParam: {}".format(env))  # debug only
 
 		if '--browser=' in param:
 			browser = str(param).replace('--browser=', '')
-			# print("\nParam: {}".format(browser))
+			# print("\nParam: {}".format(browser))  # debug only
 
 		if '--is_headless=' in param:
 			is_headless = True if str(param).replace('--is_headless=', '') == 'True' else False
-			# print("\nParam: {}".format(is_headless))
+			# print("\nParam: {}".format(is_headless))  # debug only
 
 	if env is None:
 		raise Exception("Please add '--env=<data>' argument to the command line")
