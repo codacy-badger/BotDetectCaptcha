@@ -20,7 +20,9 @@ class Driver:
         'edge': DriverPath.EDGE_WEB_DRIVER_PATH
     }
 
-    def __init__(self, config: Config, is_debug=False):
+    def __init__(self,
+                 config: Config,
+                 is_debug=False):
         self._config = config
         self._is_debug = is_debug
         self._browser = self._config.browser
