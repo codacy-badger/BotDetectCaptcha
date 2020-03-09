@@ -6,7 +6,7 @@
 import os
 import platform
 from selenium import webdriver
-from utils.config import Config
+from tests.config import Config
 from utils.path_config import DriverPath
 from selenium.common.exceptions import WebDriverException
 
