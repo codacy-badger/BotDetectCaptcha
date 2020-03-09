@@ -4,6 +4,9 @@
 
 from tests.config import Config
 from utils.driver import Driver
+from element_object_models.base_element import BaseElement
+from page_locators.base_page_locator import BasePageLocator
+from expected_results.page_content.base_page_content import BasePageContent
 
 
 class BasePageModel:
@@ -157,6 +160,12 @@ class BasePageModel:
 		:return:
 		"""
 		return self.__driver
+
+	@property
+	def logo(self):
+		return BaseElement(driver=self.driver,
+		                   explicit_wait_time=self.explicit_wait_time,
+		                   locator=BasePageLocator.LOGO)
 
 	@property
 	def title(self) -> str:
