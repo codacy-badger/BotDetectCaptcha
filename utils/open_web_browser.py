@@ -4,7 +4,7 @@
 
 import allure
 
-from utils.config import Config
+from tests.config import Config
 from utils.driver import Driver
 from utils.refresh_page import refresh_page
 from utils.http_status_code import get_http_status_code
