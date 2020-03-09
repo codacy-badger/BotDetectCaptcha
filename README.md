@@ -327,3 +327,16 @@ Use them, alongside the @contextmanager decorator and the magical-but-slightly-s
   <br/>Source: https://stackoverflow.com/questions/36940425/gitlab-push-failed-error
   
 </details>
+
+<details>
+  
+  <summary><b>py.test: error: unrecognized arguments</b></summary>
+
+  Note that pytest does not find conftest.py files in deeper nested sub directories at tool startup. 
+  It is usually a good idea to keep your conftest.py file in the top level test or project root directory.
+
+  One solution is to create an external plugin, or move the option to a conftest file nearer the root.
+
+  <br/>Source: https://stackoverflow.com/questions/31522783/py-test-error-unrecognized-arguments/31526934
+
+</details>
