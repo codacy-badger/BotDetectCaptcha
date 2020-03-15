@@ -16,9 +16,9 @@
 </div>
 <br/>
 
-# BotDetect Captcha Recognition
+# Captcha Recognition Bot
 
-Captcha recognition framework with Python, Selenium, and Machine Learning.
+"Captcha Recognition Bot" framework with Python, Selenium, and Machine Learning.
 
 ### Table of Contents
 
