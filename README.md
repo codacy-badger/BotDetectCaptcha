@@ -1,4 +1,5 @@
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ikostan/BotDetectCaptcha)
 [![HitCount](http://hits.dwyl.com/ikostan/BotDetectCaptcha.svg)](http://hits.dwyl.com/ikostan/BotDetectCaptcha)
 ![Maintenance](https://img.shields.io/maintenance/yes/2020)
 ![GitHub All Releases](https://img.shields.io/github/downloads/ikostan/BotDetectCaptcha/total)
