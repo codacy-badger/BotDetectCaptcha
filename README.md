@@ -1,5 +1,6 @@
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 [![HitCount](http://hits.dwyl.com/ikostan/BotDetectCaptcha.svg)](http://hits.dwyl.com/ikostan/BotDetectCaptcha)
+![Maintenance](https://img.shields.io/maintenance/yes/2020)
 
 <br/>   
 <div align="center"> 
