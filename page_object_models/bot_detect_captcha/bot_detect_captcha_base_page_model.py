@@ -29,15 +29,24 @@ class BotDetectCaptchaBasePageModel(BasePageModel):
 		                 explicit_wait_time,
 		                 implicit_wait_time)
 
-		self.__base_url = config.base_url + BotDetectCaptchaBasePageContent.URL
+		self._url = config.base_url + BotDetectCaptchaBasePageContent.URL
 
 	@property
-	def base_url(self):
+	def url(self):
 		"""
 		Returns base URL
 		:return:
 		"""
-		return self.__base_url
+		return self._url
+
+	def go(self) -> None:
+		"""
+		Opens test web page
+		:return:
+		"""
+		self.driver.get(self.url)
+		self.driver.maximize_window()
+		return None
 
 	@property
 	def logo(self):
