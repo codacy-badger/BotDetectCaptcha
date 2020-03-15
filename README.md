@@ -139,7 +139,7 @@ Using this software to violate the terms and conditions of any third-party servi
 
 ### Allure test report
 
-Lates Allure test report you can check [here.](captcha-recognition-bot-allure-report.netlify.com)
+Lates Allure test report you can check [here](https://captcha-recognition-bot-allure-report.netlify.com).
 
 ### Tech Issues and Problem Solving
 
