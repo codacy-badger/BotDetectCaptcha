@@ -4,9 +4,6 @@
 
 from tests.config import Config
 from utils.driver import Driver
-from element_object_models.base_element import BaseElement
-from page_locators.base_page_locator import BasePageLocator
-from expected_results.page_content.base_page_content import BasePageContent
 
 
 class BasePageModel:
@@ -23,8 +20,8 @@ class BasePageModel:
 	             driver: Driver,
 	             explicit_wait_time: int,
 	             implicit_wait_time: int = 0):
+
 		self.__config = config
-		self.__url = config.base_url + BasePageContent.URL
 		self.__implicit_wait_time = implicit_wait_time
 		self.__explicit_wait_time = self.__set_explicit_wait(explicit_wait_time)
 		self.__driver = self.__set_driver(driver)
@@ -125,16 +122,6 @@ class BasePageModel:
 			                'Please set "explicit_wait_time" value as integer.\n')
 		return explicit_wait_time
 
-	def go(self) -> None:
-		"""
-		Opens test web page
-		:return:
-		"""
-
-		self.__driver.get(self.__url)
-		self.__driver.maximize_window()
-		return None
-
 	def quit(self) -> None:
 		"""
 		Close web browser window (including all opened tabs)
@@ -160,12 +147,6 @@ class BasePageModel:
 		:return:
 		"""
 		return self.__driver
-
-	@property
-	def logo(self):
-		return BaseElement(driver=self.driver,
-		                   explicit_wait_time=self.explicit_wait_time,
-		                   locator=BasePageLocator.LOGO)
 
 	@property
 	def title(self) -> str:
