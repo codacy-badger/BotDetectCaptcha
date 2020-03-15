@@ -137,6 +137,10 @@ Full list of dependencies see [here.](https://github.com/ikostan/BotDetectCaptch
 
 Using this software to violate the terms and conditions of any third-party service is strictly against the intent of this software. By using this software, you are acknowledging this fact and absolving the author or any potential liability or wrongdoing it may cause. This software is meant for testing and experimental purposes only, so please act responsibly.
 
+### Allure test report
+
+Lates Allure test report you can check [here.](captcha-recognition-bot-allure-report.netlify.com)
+
 ### Tech Issues and Problem Solving
 
 <a id="tech_issues"></a>
