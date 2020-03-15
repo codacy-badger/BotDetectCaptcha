@@ -14,4 +14,4 @@ class BotDetectCaptchaBasePageLocator:
 	"""
 
 	# Website logo
-	LOGO = (By.XPATH, "//*[@id=\"top\"]/div[2]/div[2]/div/div[1]/a/span")
+	LOGO = (By.XPATH, "/html//body[@id='top']//a[@title='BotDetect CAPTCHA Homepage']/span[@class='logo']")
