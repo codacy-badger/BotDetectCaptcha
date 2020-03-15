@@ -9,7 +9,7 @@ from expected_results.page_content.bot_detect_captcha_content.bot_detect_captcha
 	BotDetectCaptchaImageStylesDemoPageContent
 
 
-class BotDetectCaptchaImageStylesDemo(BotDetectCaptchaBasePageModel):
+class BotDetectCaptchaImageStylesDemoModel(BotDetectCaptchaBasePageModel):
 	def __init__(self,
 	             config: Config,
 	             driver: Driver,
@@ -21,21 +21,4 @@ class BotDetectCaptchaImageStylesDemo(BotDetectCaptchaBasePageModel):
 		                 explicit_wait_time,
 		                 implicit_wait_time)
 
-		self.__url = BotDetectCaptchaImageStylesDemoPageContent.URL
-
-	@property
-	def url(self) -> str:
-		"""
-		Returns BotDetect Captcha Image Styles Demo web page URL
-		:return:
-		"""
-		return self.__url
-
-	def go(self) -> None:
-		"""
-		Opens test web page
-		:return:
-		"""
-		self.driver.get(self.base_url + self.url)
-		self.driver.maximize_window()
-		return None
+		self._url = config.base_url + BotDetectCaptchaImageStylesDemoPageContent.URL
