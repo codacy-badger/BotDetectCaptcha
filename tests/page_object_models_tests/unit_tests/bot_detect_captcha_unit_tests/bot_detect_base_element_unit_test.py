@@ -19,7 +19,7 @@ from utils.step_definition import step_definition
 @allure.suite("BotDetect Captcha")
 @allure.sub_suite('Positive Tests')
 @allure.feature("BotDetect CAPTCHA Demo - Image Styles Page")
-@allure.story('Customer Care Functionality')
+@allure.story('Base Page Elements Verification')
 @allure.tag('LOGO', 'URL', 'BotDetect CAPTCHA Demo - Image Styles')
 @allure.link(url='https://captcha.com/demos/image-styles/captcha-demo.aspx',
              name='BotDetect CAPTCHA Demo - Image Styles')
