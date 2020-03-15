@@ -38,6 +38,6 @@ def open_web_browser(config: Config, page_model, page_content):
 		                  explicit_wait_time=10)
 
 		page.go()
-		get_http_status_code(page.url())
+		get_http_status_code(page.url)
 		refresh_page(page_content.TITLE, page)
 		return page
