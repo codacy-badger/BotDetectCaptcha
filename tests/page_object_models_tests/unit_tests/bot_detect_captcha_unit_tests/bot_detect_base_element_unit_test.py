@@ -16,8 +16,9 @@ class BaseElementUnitTestCase(unittest.TestCase):
 
 	@classmethod
 	def setUpClass(cls):
-		cls.page = None
-		cls.config = Config()
+		with allure.step("Set up initial configs"):
+			cls.page = None
+			cls.config = Config()
 
 	@classmethod
 	def tearDownClass(cls):
@@ -41,13 +42,13 @@ class BaseElementUnitTestCase(unittest.TestCase):
 				self.page.close()
 
 	def test_bot_detect_captcha_image_styles_demo_logo(self):
-
-		logo = self.page.logo
-		self.assertIsNotNone(logo)
+		with allure.step("Assert that page logo object is not null"):
+			logo = self.page.logo
+			self.assertIsNotNone(logo)
 
 	def test_bot_detect_captcha_image_styles_demo_url(self):
-
-		url = self.page.url
-		expected = self.config.base_url + BotDetectCaptchaImageStylesDemoPageContent.URL
-		self.assertEqual(expected, url)
+		with allure.step("Assert web page URL"):
+			url = self.page.url
+			expected = self.config.base_url + BotDetectCaptchaImageStylesDemoPageContent.URL
+			self.assertEqual(expected, url)
 
