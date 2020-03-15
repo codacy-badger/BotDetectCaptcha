@@ -1,4 +1,5 @@
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+[![HitCount](http://hits.dwyl.com/ikostan/BotDetectCaptcha.svg)](http://hits.dwyl.com/ikostan/BotDetectCaptcha)
 
 <br/>   
 <div align="center"> 
