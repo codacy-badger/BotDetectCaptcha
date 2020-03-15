@@ -4,9 +4,10 @@
 from tests.config import Config
 
 
-class BasePageContent:
+class BotDetectCaptchaBasePageContent:
 	"""
-	Holds expected context values for any relevant page items
+	Holds expected context values for any
+	BotDetect Captcha relevant page items
 	"""
 
 	URL = ''
