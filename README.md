@@ -5,6 +5,8 @@
 ![GitHub All Releases](https://img.shields.io/github/downloads/ikostan/BotDetectCaptcha/total)
 ![GitHub forks](https://img.shields.io/github/forks/ikostan/BotDetectCaptcha)
 [![Known Vulnerabilities](https://snyk.io/test/github/ikostan/BotDetectCaptcha/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/ikostan/BotDetectCaptcha?targetFile=requirements.txt)
+![GitHub issues](https://img.shields.io/github/issues-raw/ikostan/BotDetectCaptcha)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/ikostan/BotDetectCaptcha)
 
 <br/>   
 <div align="center"> 
