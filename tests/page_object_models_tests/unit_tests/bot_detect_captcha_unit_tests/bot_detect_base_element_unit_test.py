@@ -5,13 +5,25 @@
 import unittest
 import allure
 from tests.config import Config
+from utils.screenshot import screenshot_on_fail
+from utils.open_web_browser import open_web_browser
 from page_object_models.bot_detect_captcha.bot_detect_captcha_image_styles_demo_page_model import \
 	BotDetectCaptchaImageStylesDemoModel
 from expected_results.page_content.bot_detect_captcha_content.bot_detect_captcha_image_styles_demo_content import \
 	BotDetectCaptchaImageStylesDemoPageContent
-from utils.open_web_browser import open_web_browser
+from utils.step_definition import step_definition
 
 
+@allure.epic('Page Functionality')
+@allure.parent_suite('Unit')
+@allure.suite("BotDetect Captcha")
+@allure.sub_suite('Positive Tests')
+@allure.feature("BotDetect CAPTCHA Demo - Image Styles Page")
+@allure.story('Customer Care Functionality')
+@allure.tag('LOGO', 'URL', 'BotDetect CAPTCHA Demo - Image Styles')
+@allure.link(url='https://captcha.com/demos/image-styles/captcha-demo.aspx',
+             name='BotDetect CAPTCHA Demo - Image Styles')
+@screenshot_on_fail()
 class BaseElementUnitTestCase(unittest.TestCase):
 
 	@classmethod
@@ -42,13 +54,35 @@ class BaseElementUnitTestCase(unittest.TestCase):
 				self.page.close()
 
 	def test_bot_detect_captcha_image_styles_demo_logo(self):
-		with allure.step("Assert that page logo object is not null"):
-			logo = self.page.logo
-			self.assertIsNotNone(logo)
+		allure.dynamic.description("""
+			Forgot Login Info test case:
+			1. Open 'BotDetect CAPTCHA Demo - Image Styles' web page
+			2. Verify web page logo is not null
+			3. Close web browser
+		""")
+		allure.dynamic.title("'BotDetect CAPTCHA Demo - Image Styles' > Logo")
+		allure.dynamic.severity(allure.severity_level.TRIVIAL)
+
+		step_definition(self,
+		                expected=True,
+		                actual=bool(self.page.logo),
+		                act=None,
+		                step_description="Assert that page logo object is not null",
+		                click=False)
 
 	def test_bot_detect_captcha_image_styles_demo_url(self):
-		with allure.step("Assert web page URL"):
-			url = self.page.url
-			expected = self.config.base_url + BotDetectCaptchaImageStylesDemoPageContent.URL
-			self.assertEqual(expected, url)
+		allure.dynamic.description("""
+			Forgot Login Info test case:
+			1. Open 'BotDetect CAPTCHA Demo - Image Styles' web page
+			2. Verify web page URL
+			3. Close web browser
+		""")
+		allure.dynamic.title("'BotDetect CAPTCHA Demo - Image Styles' > URL")
+		allure.dynamic.severity(allure.severity_level.CRITICAL)
 
+		step_definition(self,
+		                expected=self.config.base_url + BotDetectCaptchaImageStylesDemoPageContent.URL,
+		                actual=self.page.url,
+		                act=None,
+		                step_description="Assert web page URL",
+		                click=False)
