@@ -39,15 +39,6 @@ class BotDetectCaptchaBasePageModel(BasePageModel):
 		"""
 		return self.__base_url
 
-	def go(self) -> None:
-		"""
-		Opens test web page
-		:return:
-		"""
-		self.driver.get(self.base_url)
-		self.driver.maximize_window()
-		return None
-
 	@property
 	def logo(self):
 		return BaseElement(driver=self.driver,
