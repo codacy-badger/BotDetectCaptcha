@@ -16,28 +16,29 @@ Captcha recognition framework with Python, Selenium, and Machine Learning.
 
 1. <a href="#about">About the project</a>
 2. <a href="#doc">Official Documentation</a>
-3. <a href="#dev">Dev Environment</a>
-4. <a href="#tech_issues">Tech Issues and Problem Solving</a>
-5. [Selenium Webdriver](https://github.com/ikostan/BotDetectCaptcha/tree/master/drivers):<br/>
+3. <a href="#compression">Image Compression</a>
+4. <a href="#dev">Dev Environment</a>
+5. <a href="#tech_issues">Tech Issues and Problem Solving</a>
+6. [Selenium Webdriver](https://github.com/ikostan/BotDetectCaptcha/tree/master/drivers):<br/>
     - [ChromeDriver](https://github.com/ikostan/BotDetectCaptcha/tree/master/drivers/chrome)<br/>
     - [Microsoft WebDriver](https://github.com/ikostan/BotDetectCaptcha/tree/master/drivers/microsoft_edge)<br/>
     - [geckodriver](https://github.com/ikostan/BotDetectCaptcha/tree/master/drivers/mozilla_geckodriver)<br/>
-6. [Web Element](https://github.com/ikostan/BotDetectCaptcha/tree/master/element_object_models)<br/>
-7. [Expected Results](https://github.com/ikostan/BotDetectCaptcha/tree/master/expected_results)<br/>
-8. [Page/Element Locators](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_locators)<br/>
+7. [Web Element](https://github.com/ikostan/BotDetectCaptcha/tree/master/element_object_models)<br/>
+8. [Expected Results](https://github.com/ikostan/BotDetectCaptcha/tree/master/expected_results)<br/>
+9. [Page/Element Locators](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_locators)<br/>
     - [UML diagram](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_locators/uml)
-9. [Page Object Model (POM)](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_object_models)<br/>
-10. [Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests)<br/>
+10. [Page Object Model (POM)](https://github.com/ikostan/BotDetectCaptcha/tree/master/page_object_models)<br/>
+11. [Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests)<br/>
     i. [Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests)<br/>
         - [Base Cases](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_cases)<br/>
         - [Base Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_content_tests)<br/>
         - [Unique Content Tests](https://github.com/ikostan/BotDetectCaptcha/tree/master/tests/content_tests/base_content_tests)
-11. [Software](https://github.com/ikostan/BotDetectCaptcha/tree/master/software)<br/>
-12. [CAPTCHA Images](https://github.com/ikostan/BotDetectCaptcha/tree/master/captcha_images)<br/>
+12. [Software](https://github.com/ikostan/BotDetectCaptcha/tree/master/software)<br/>
+13. [CAPTCHA Images](https://github.com/ikostan/BotDetectCaptcha/tree/master/captcha_images)<br/>
     1. [BotDetect CAPTCHA Images](https://github.com/ikostan/BotDetectCaptcha/tree/master/captcha_images/bot_detect)<br/>
         - [AncientMosaic CAPTCHA Images](https://github.com/ikostan/BotDetectCaptcha/tree/master/captcha_images/bot_detect/ancient_mosaic)<br/>
-13. <a href="#browsers">Supported Web Browsers</a>
-14. <a href="#disclaimer">Disclaimer</a>
+14. <a href="#browsers">Supported Web Browsers</a>
+15. <a href="#disclaimer">Disclaimer</a>
 
 ### About the project
 
@@ -63,6 +64,13 @@ As a reference for the project I used [TensorFlow CAPTCHA solver](https://pyless
 - Test code should avoid violating principles like [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it), [SRP](https://en.wikipedia.org/wiki/Single_responsibility_principle) and [KISS](https://en.wikipedia.org/wiki/KISS_principle).
 - Integration with [Travis CI](https://travis-ci.org/)
 - Using real-like web app ([BotDetect CAPTCHA Demo](https://captcha.com/demos/features/captcha-demo.aspx)) in order to accomplish all the above<br/>
+
+### Image Compression
+<a id="compression"></a>
+
+Images are one of the key parts of the application, but they also play a really big role in performance degradation. The more images you have, the slower your load times can become.
+
+[IMGBOT](https://imgbot.net/docs/#docs) running a loss-less compression that and takes the heavy lifting out for you. With just a couple of clicks you can get `IMGBOT` running in your project's repo on GitHub and sending you pull requests with your images optimized.
 
 ### Official Documentation:<br/>
 <a id="doc"></a>
