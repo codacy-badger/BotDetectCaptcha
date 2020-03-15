@@ -1,0 +1,21 @@
+[ {
+  "uid" : "17d3028d993203f0",
+  "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Logo",
+  "time" : {
+    "start" : 1584315713872,
+    "stop" : 1584315735360,
+    "duration" : 21488
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "c086304237eeb956",
+  "name" : "'BotDetect CAPTCHA Demo - Image Styles' > URL",
+  "time" : {
+    "start" : 1584315735372,
+    "stop" : 1584315755261,
+    "duration" : 19889
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

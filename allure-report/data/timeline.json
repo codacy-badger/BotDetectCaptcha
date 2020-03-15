@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-RJASUD2",
+    "children" : [ {
+      "name" : "9264-MainThread",
+      "children" : [ {
+        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Logo",
+        "uid" : "17d3028d993203f0",
+        "parentUid" : "5a8f1b1a56e5f7ebbf2cce86720c7e28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584315713872,
+          "stop" : 1584315735360,
+          "duration" : 21488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > URL",
+        "uid" : "c086304237eeb956",
+        "parentUid" : "5a8f1b1a56e5f7ebbf2cce86720c7e28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584315735372,
+          "stop" : 1584315755261,
+          "duration" : 19889
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5a8f1b1a56e5f7ebbf2cce86720c7e28"
+    } ],
+    "uid" : "2652cca0e38bdc0f407bb8ece854fbdb"
+  } ]
+}
