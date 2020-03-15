@@ -356,3 +356,129 @@ Use them, alongside the @contextmanager decorator and the magical-but-slightly-s
   <br/>Source: https://stackoverflow.com/questions/31522783/py-test-error-unrecognized-arguments/31526934
 
 </details>
+
+<details>
+  <summary><b>How to generate Allure report with history trends (Windows OS)</b></summary>
+
+<br/>Step by step:
+
+1. Run tests from pytest using following arguments: -v --alluredir=allure-results
+
+2. Copy '.\allure-report\history\' folder into '.\allure-results\history\'
+
+3. Run: allure generate .\allure-results\ -o .\allure-report\ --clean
+
+4. Following output should appear: Report successfully generated to .\allure-report
+
+5. Run: allure open .\allure-report\
+
+[Source](https://github.com/allure-framework/allure2/issues/813)
+</details>
+
+<details>
+  <summary><b>Sphinx Documentation Set Up</b></summary>
+
+<br/>Step by step:
+
+1. Create docs directory
+
+2. Open cmd > Go to docs directory
+
+3. cmd > Run: sphinx-quickstart. **Note:** run with default answers
+    
+4. Go to docs/conf.py
+
+5. Uncomment following lines:
+
+```python
+    import os
+    import sys
+    sys.path.insert(0, os.path.abspath('.'))
+```
+
+6. Update extensions list as following:
+
+```python
+extensions = ['sphinx.ext.todo', 'sphinx.ext.viewcode', 'sphinx.ext.autodoc']
+```
+
+7. Update template as following:
+
+```python
+html_theme = 'sphinx_rtd_theme'
+
+```
+
+8. Update sys.path.insert as following:
+
+```python
+sys.path.insert(0, os.path.abspath('..'))
+```
+
+9. Go to docs/index.rst > add modules, see example below:
+
+```bash
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   modules
+```
+
+10. Open cmd > run: 
+
+```python
+sphinx-apidoc -o . ..
+```
+
+11. cmd > Run: make html
+
+12. Install html template:
+
+```python
+pip install sphinx_rtd_theme
+```
+
+[Video Tutorial](https://www.youtube.com/watch?v=b4iFyrLQQh4)
+[Sphinx Documentation](https://www.sphinx-doc.org/en/master/usage/quickstart.html)
+[More Info](https://stackoverflow.com/questions/13516404/sphinx-error-unknown-directive-type-automodule-or-autoclass)
+</details>
+
+<details>
+  <summary><b>Auto-Generated Python Documentation with Sphinx</b></summary>
+
+<br/>Step by step:
+
+1. Open CMD
+
+2. Go to docs directory
+
+3. Run: make clean
+
+4. Run: sphinx-apidoc -o . ..
+
+5. Add doc files name into relevant doc rst file
+
+6. Run: make html
+
+[Source](https://www.youtube.com/watch?v=b4iFyrLQQh4)
+</details>
+
+<details>
+  <summary><b>Read-the-docs build fails with “cannot import name 'PackageFinder' from 'pip._internal.index'</b></summary>
+    <p></p>
+The issue and the fix are described in read-the-docs issue [#6554](https://github.com/readthedocs/readthedocs.org/issues/6554):
+
+The fix is to wipe out the build environment as follows (this is taken from [here](https://docs.readthedocs.io/en/stable/guides/wipe-environment.html)):
+
+* Log in to read-the-docs
+* Go to Versions
+* Click on the Edit button of the version you want to wipe on the right side of the page
+* Go to the bottom of the page and click the wipe link, next to the “Save” button
+* Now you can re-build the version with a fresh build environment!
+
+This fix worked for me (but as of 26-Jan-2020 you have to wipe out the environment for every build -- see comment from Grimmy below).
+
+[Source](https://stackoverflow.com/questions/59846065/read-the-docs-build-fails-with-cannot-import-name-packagefinder-from-pip-in)
+</details>
