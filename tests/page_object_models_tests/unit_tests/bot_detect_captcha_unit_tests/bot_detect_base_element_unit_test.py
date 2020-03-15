@@ -14,7 +14,7 @@ from expected_results.page_content.bot_detect_captcha_content.bot_detect_captcha
 from utils.step_definition import step_definition
 
 
-@allure.epic('Page Functionality')
+@allure.epic('BotDetect CAPTCHA')
 @allure.parent_suite('Unit')
 @allure.suite("BotDetect Captcha")
 @allure.sub_suite('Positive Tests')
