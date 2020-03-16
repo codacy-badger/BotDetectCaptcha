@@ -4,7 +4,6 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ikostan/BotDetectCaptcha)
 ![Maintenance](https://img.shields.io/maintenance/yes/2020)
 ![GitHub All Releases](https://img.shields.io/github/downloads/ikostan/BotDetectCaptcha/total)
-[![Known Vulnerabilities](https://snyk.io/test/github/ikostan/BotDetectCaptcha/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/ikostan/BotDetectCaptcha?targetFile=requirements.txt)
 ![GitHub issues](https://img.shields.io/github/issues-raw/ikostan/BotDetectCaptcha)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/ikostan/BotDetectCaptcha)
 [![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
