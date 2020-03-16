@@ -10,9 +10,12 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ad3093c1-2604-4a11-9cdc-ca727460baa7/deploy-status)](https://app.netlify.com/sites/captcha-recognition-bot-allure-report/deploys)
 [![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
 [![Build Status](https://travis-ci.org/ikostan/BotDetectCaptcha.svg?branch=master)](https://travis-ci.org/ikostan/BotDetectCaptcha)
+[![codecov](https://codecov.io/gh/ikostan/BotDetectCaptcha/branch/master/graph/badge.svg)](https://codecov.io/gh/ikostan/BotDetectCaptcha)
+
+
+
 [![Maintainability](https://api.codeclimate.com/v1/badges/16060591d3712fec3c85/maintainability)](https://codeclimate.com/github/ikostan/BotDetectCaptcha/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/16060591d3712fec3c85/test_coverage)](https://codeclimate.com/github/ikostan/BotDetectCaptcha/test_coverage)
-[![codecov](https://codecov.io/gh/ikostan/BotDetectCaptcha/branch/master/graph/badge.svg)](https://codecov.io/gh/ikostan/BotDetectCaptcha)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2f90a293803642558cdbf73602376ad3)](https://www.codacy.com/manual/ikostan/BotDetectCaptcha?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ikostan/BotDetectCaptcha&amp;utm_campaign=Badge_Grade)
 
 <br/>   
