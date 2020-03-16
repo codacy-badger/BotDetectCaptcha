@@ -1,9 +1,10 @@
 #  Created by Egor Kostan.
 #  GitHub: https://github.com/ikostan
 #  LinkedIn: https://www.linkedin.com/in/egor-kostan/
+import types
 
-import collections
 import allure
+import collections
 
 
 def step_definition(self,
@@ -42,7 +43,7 @@ def step_definition(self,
 
         # Assert
         # check if an object is a function
-        if isinstance(actual, collections.Callable):
+        if isinstance(actual, types.FunctionType):
             actual_result = actual()
         else:
             actual_result = actual
