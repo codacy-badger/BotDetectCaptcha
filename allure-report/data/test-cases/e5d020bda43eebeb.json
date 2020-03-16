@@ -1,5 +1,5 @@
 {
-  "uid" : "66f7be97e6b3794c",
+  "uid" : "e5d020bda43eebeb",
   "name" : "'BotDetect CAPTCHA Demo - Image Styles' > URL",
   "fullName" : "tests.page_object_models_tests.unit_tests.bot_detect_captcha_unit_tests.bot_detect_base_element_unit_test.BaseElementUnitTestCase#test_bot_detect_captcha_image_styles_demo_url",
   "historyId" : "9ee3a6a3cac4f7a764d82e636eec7ad2",
@@ -32,17 +32,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 1,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "description" : "\n\t\t\tForgot Login Info test case:\n\t\t\t1. Open 'BotDetect CAPTCHA Demo - Image Styles' web page\n\t\t\t2. Verify web page URL\n\t\t\t3. Close web browser\n\t\t",
@@ -74,24 +74,24 @@
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "shouldDisplayMessage" : false,
-          "attachmentsCount" : 0,
           "stepsCount" : 0,
-          "hasContent" : false
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0,
         "stepsCount" : 1,
-        "hasContent" : true
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 2,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Assert web page URL",
       "time" : {
@@ -103,10 +103,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Close current tab",
       "time" : {
@@ -118,23 +118,23 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "5c60c4d15735256b",
+      "uid" : "368a3c4ee4d03b38",
       "name" : "stdout",
-      "source" : "5c60c4d15735256b.txt",
+      "source" : "368a3c4ee4d03b38.txt",
       "type" : "text/plain",
       "size" : 769
     } ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1,
     "stepsCount" : 5,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "_UnitTestCase__pytest_class_setup::0",
@@ -155,17 +155,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 1,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "severity",
@@ -228,6 +228,6 @@
     "categories" : [ ],
     "tags" : [ "LOGO", "BotDetect CAPTCHA Demo - Image Styles", "URL" ]
   },
-  "source" : "66f7be97e6b3794c.json",
+  "source" : "e5d020bda43eebeb.json",
   "parameterValues" : [ ]
 }

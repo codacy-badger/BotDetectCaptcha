@@ -1,31 +1,31 @@
 [ {
-  "uid" : "9f518f7636b7f6cf",
+  "uid" : "1088bf00dacced77",
   "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Title",
   "time" : {
-    "start" : 1584317185797,
-    "stop" : 1584317206630,
-    "duration" : 20833
+    "start" : 1584318211445,
+    "stop" : 1584318235656,
+    "duration" : 24211
   },
   "status" : "passed",
   "severity" : "minor"
 }, {
-  "uid" : "39edfe313ae8bb5",
-  "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Logo",
-  "time" : {
-    "start" : 1584317165071,
-    "stop" : 1584317185764,
-    "duration" : 20693
-  },
-  "status" : "passed",
-  "severity" : "trivial"
-}, {
-  "uid" : "1750c9d819ac2518",
+  "uid" : "b6f9bdcabc6244ba",
   "name" : "'BotDetect CAPTCHA Demo - Image Styles' > URL",
   "time" : {
-    "start" : 1584317206653,
-    "stop" : 1584317230614,
-    "duration" : 23961
+    "start" : 1584318235666,
+    "stop" : 1584318259398,
+    "duration" : 23732
   },
   "status" : "passed",
   "severity" : "critical"
+}, {
+  "uid" : "24f7b75bf2523a9c",
+  "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Logo",
+  "time" : {
+    "start" : 1584318191208,
+    "stop" : 1584318211424,
+    "duration" : 20216
+  },
+  "status" : "passed",
+  "severity" : "trivial"
 } ]
