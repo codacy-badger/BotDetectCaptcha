@@ -33,7 +33,7 @@ def open_web_browser(config: Config, page_model, page_content):
 
 		page = page_model(config=config,
 		                  driver=driver,
-		                  implicit_wait_time=5,
+		                  implicit_wait_time=1,
 		                  explicit_wait_time=10)
 
 		page.go()
