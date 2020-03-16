@@ -1,12 +1,12 @@
 {
-  "uid" : "1088bf00dacced77",
+  "uid" : "de26079d3bebb3ba",
   "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Title",
   "fullName" : "tests.page_object_models_tests.unit_tests.bot_detect_captcha_unit_tests.bot_detect_base_element_unit_test.BaseElementUnitTestCase#test_bot_detect_captcha_image_styles_demo_title",
   "historyId" : "8653a3028d68fa27cb214f9f5815891d",
   "time" : {
-    "start" : 1584318211445,
-    "stop" : 1584318235656,
-    "duration" : 24211
+    "start" : 1584319420490,
+    "stop" : 1584319441258,
+    "duration" : 20768
   },
   "description" : "\n\t\t\tForgot Login Info test case:\n\t\t\t1. Open 'BotDetect CAPTCHA Demo - Image Styles' web page\n\t\t\t2. Verify web page title\n\t\t\t3. Close web browser\n\t\t",
   "descriptionHtml" : "<pre><code>\t\tForgot Login Info test case:\n\t\t1. Open 'BotDetect CAPTCHA Demo - Image Styles' web page\n\t\t2. Verify web page title\n\t\t3. Close web browser\n</code></pre>\n",
@@ -16,16 +16,16 @@
   "beforeStages" : [ {
     "name" : "_UnitTestCase__pytest_class_setup",
     "time" : {
-      "start" : 1584318191205,
-      "stop" : 1584318191205,
+      "start" : 1584319399306,
+      "stop" : 1584319399306,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Set up initial configs",
       "time" : {
-        "start" : 1584318191205,
-        "stop" : 1584318191205,
+        "start" : 1584319399306,
+        "stop" : 1584319399306,
         "duration" : 0
       },
       "status" : "passed",
@@ -50,25 +50,25 @@
     "steps" : [ {
       "name" : "Initial data setup: demos/image-styles/captcha-demo.aspx",
       "time" : {
-        "start" : 1584318211446,
-        "stop" : 1584318231298,
-        "duration" : 19852
+        "start" : 1584319420490,
+        "stop" : 1584319441083,
+        "duration" : 20593
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Open web browser",
         "time" : {
-          "start" : 1584318211446,
-          "stop" : 1584318231298,
-          "duration" : 19852
+          "start" : 1584319420491,
+          "stop" : 1584319441083,
+          "duration" : 20592
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Open following web page: demos/image-styles/captcha-demo.aspx.",
           "time" : {
-            "start" : 1584318211446,
-            "stop" : 1584318231298,
-            "duration" : 19852
+            "start" : 1584319420491,
+            "stop" : 1584319441083,
+            "duration" : 20592
           },
           "status" : "passed",
           "steps" : [ ],
@@ -95,9 +95,9 @@
     }, {
       "name" : "Assert web page title",
       "time" : {
-        "start" : 1584318231302,
-        "stop" : 1584318231303,
-        "duration" : 1
+        "start" : 1584319441091,
+        "stop" : 1584319441091,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -110,9 +110,9 @@
     }, {
       "name" : "Close current tab",
       "time" : {
-        "start" : 1584318231303,
-        "stop" : 1584318235655,
-        "duration" : 4352
+        "start" : 1584319441091,
+        "stop" : 1584319441257,
+        "duration" : 166
       },
       "status" : "passed",
       "steps" : [ ],
@@ -124,11 +124,11 @@
       "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "c7ef678e336a2aae",
+      "uid" : "6fdb98b5c1eb04ea",
       "name" : "stdout",
-      "source" : "c7ef678e336a2aae.txt",
+      "source" : "6fdb98b5c1eb04ea.txt",
       "type" : "text/plain",
-      "size" : 733
+      "size" : 807
     } ],
     "parameters" : [ ],
     "stepsCount" : 5,
@@ -139,17 +139,17 @@
   "afterStages" : [ {
     "name" : "_UnitTestCase__pytest_class_setup::0",
     "time" : {
-      "start" : 1584318259404,
-      "stop" : 1584318259405,
-      "duration" : 1
+      "start" : 1584319465101,
+      "stop" : 1584319465101,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Close Web Browser",
       "time" : {
-        "start" : 1584318259404,
-        "stop" : 1584318259405,
-        "duration" : 1
+        "start" : 1584319465101,
+        "stop" : 1584319465101,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -172,19 +172,19 @@
     "value" : "minor"
   }, {
     "name" : "tag",
-    "value" : "BotDetect CAPTCHA Demo - Image Styles"
+    "value" : "URL"
+  }, {
+    "name" : "feature",
+    "value" : "BotDetect CAPTCHA Demo - Image Styles Page"
   }, {
     "name" : "parentSuite",
     "value" : "Unit"
   }, {
     "name" : "tag",
-    "value" : "URL"
+    "value" : "BotDetect CAPTCHA Demo - Image Styles"
   }, {
     "name" : "tag",
     "value" : "LOGO"
-  }, {
-    "name" : "suite",
-    "value" : "BotDetect Captcha"
   }, {
     "name" : "story",
     "value" : "Base Page Elements Verification"
@@ -192,8 +192,8 @@
     "name" : "subSuite",
     "value" : "Positive Tests"
   }, {
-    "name" : "feature",
-    "value" : "BotDetect CAPTCHA Demo - Image Styles Page"
+    "name" : "suite",
+    "value" : "BotDetect Captcha"
   }, {
     "name" : "epic",
     "value" : "BotDetect CAPTCHA"
@@ -202,7 +202,7 @@
     "value" : "DESKTOP-RJASUD2"
   }, {
     "name" : "thread",
-    "value" : "10856-MainThread"
+    "value" : "11712-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -227,7 +227,23 @@
   "extra" : {
     "severity" : "minor",
     "retries" : [ {
-      "uid" : "f34407ed034ad1d6",
+      "uid" : "58f7709e824b84cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584319137436,
+        "stop" : 1584319156645,
+        "duration" : 19209
+      }
+    }, {
+      "uid" : "adcfbbb0479b357c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584318211445,
+        "stop" : 1584318235656,
+        "duration" : 24211
+      }
+    }, {
+      "uid" : "3f9112f5fa2e53d1",
       "status" : "passed",
       "time" : {
         "start" : 1584317185797,
@@ -235,7 +251,7 @@
         "duration" : 20833
       }
     }, {
-      "uid" : "64f7f180ac3ebe0b",
+      "uid" : "414a3e8e6bf5c4f3",
       "status" : "passed",
       "time" : {
         "start" : 1584316708698,
@@ -249,11 +265,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 4,
+        "passed" : 5,
         "unknown" : 0,
-        "total" : 4
+        "total" : 5
       },
       "items" : [ {
+        "uid" : "1088bf00dacced77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584318211445,
+          "stop" : 1584318235656,
+          "duration" : 24211
+        }
+      }, {
         "uid" : "9f518f7636b7f6cf",
         "status" : "passed",
         "time" : {
@@ -281,6 +305,6 @@
     },
     "tags" : [ "LOGO", "BotDetect CAPTCHA Demo - Image Styles", "URL" ]
   },
-  "source" : "1088bf00dacced77.json",
+  "source" : "de26079d3bebb3ba.json",
   "parameterValues" : [ ]
 }

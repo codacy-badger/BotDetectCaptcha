@@ -1,12 +1,12 @@
 {
-  "uid" : "818bda4f622e094",
+  "uid" : "e85699fe9b6d7975",
   "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Logo",
   "fullName" : "tests.page_object_models_tests.unit_tests.bot_detect_captcha_unit_tests.bot_detect_base_element_unit_test.BaseElementUnitTestCase#test_bot_detect_captcha_image_styles_demo_logo",
   "historyId" : "453db3b033387f9f3ed45363df21aa65",
   "time" : {
-    "start" : 1584317165071,
-    "stop" : 1584317185764,
-    "duration" : 20693
+    "start" : 1584319399310,
+    "stop" : 1584319420470,
+    "duration" : 21160
   },
   "description" : "\n\t\t\tForgot Login Info test case:\n\t\t\t1. Open 'BotDetect CAPTCHA Demo - Image Styles' web page\n\t\t\t2. Verify web page logo is not null\n\t\t\t3. Close web browser\n\t\t",
   "descriptionHtml" : "<pre><code>\t\tForgot Login Info test case:\n\t\t1. Open 'BotDetect CAPTCHA Demo - Image Styles' web page\n\t\t2. Verify web page logo is not null\n\t\t3. Close web browser\n</code></pre>\n",
@@ -16,17 +16,17 @@
   "beforeStages" : [ {
     "name" : "_UnitTestCase__pytest_class_setup",
     "time" : {
-      "start" : 1584317165067,
-      "stop" : 1584317165068,
-      "duration" : 1
+      "start" : 1584319399306,
+      "stop" : 1584319399306,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Set up initial configs",
       "time" : {
-        "start" : 1584317165067,
-        "stop" : 1584317165068,
-        "duration" : 1
+        "start" : 1584319399306,
+        "stop" : 1584319399306,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,25 +50,25 @@
     "steps" : [ {
       "name" : "Initial data setup: demos/image-styles/captcha-demo.aspx",
       "time" : {
-        "start" : 1584317165071,
-        "stop" : 1584317185603,
-        "duration" : 20532
+        "start" : 1584319399310,
+        "stop" : 1584319420311,
+        "duration" : 21001
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Open web browser",
         "time" : {
-          "start" : 1584317165071,
-          "stop" : 1584317185603,
-          "duration" : 20532
+          "start" : 1584319399310,
+          "stop" : 1584319420311,
+          "duration" : 21001
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Open following web page: demos/image-styles/captcha-demo.aspx.",
           "time" : {
-            "start" : 1584317165071,
-            "stop" : 1584317185603,
-            "duration" : 20532
+            "start" : 1584319399310,
+            "stop" : 1584319420311,
+            "duration" : 21001
           },
           "status" : "passed",
           "steps" : [ ],
@@ -95,8 +95,8 @@
     }, {
       "name" : "Assert that page logo object is not null",
       "time" : {
-        "start" : 1584317185617,
-        "stop" : 1584317185617,
+        "start" : 1584319420324,
+        "stop" : 1584319420324,
         "duration" : 0
       },
       "status" : "passed",
@@ -110,9 +110,9 @@
     }, {
       "name" : "Close current tab",
       "time" : {
-        "start" : 1584317185617,
-        "stop" : 1584317185763,
-        "duration" : 146
+        "start" : 1584319420324,
+        "stop" : 1584319420469,
+        "duration" : 145
       },
       "status" : "passed",
       "steps" : [ ],
@@ -124,11 +124,11 @@
       "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "18c9dc0a57a33920",
+      "uid" : "2b103f5c95dc6d01",
       "name" : "stdout",
-      "source" : "18c9dc0a57a33920.txt",
+      "source" : "2b103f5c95dc6d01.txt",
       "type" : "text/plain",
-      "size" : 822
+      "size" : 896
     } ],
     "parameters" : [ ],
     "stepsCount" : 5,
@@ -139,16 +139,16 @@
   "afterStages" : [ {
     "name" : "_UnitTestCase__pytest_class_setup::0",
     "time" : {
-      "start" : 1584317230617,
-      "stop" : 1584317230617,
+      "start" : 1584319465101,
+      "stop" : 1584319465101,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Close Web Browser",
       "time" : {
-        "start" : 1584317230617,
-        "stop" : 1584317230617,
+        "start" : 1584319465101,
+        "stop" : 1584319465101,
         "duration" : 0
       },
       "status" : "passed",
@@ -171,38 +171,38 @@
     "name" : "severity",
     "value" : "trivial"
   }, {
-    "name" : "subSuite",
-    "value" : "Positive Tests"
-  }, {
     "name" : "tag",
-    "value" : "BotDetect CAPTCHA Demo - Image Styles"
+    "value" : "URL"
+  }, {
+    "name" : "feature",
+    "value" : "BotDetect CAPTCHA Demo - Image Styles Page"
   }, {
     "name" : "parentSuite",
     "value" : "Unit"
   }, {
-    "name" : "epic",
-    "value" : "BotDetect CAPTCHA"
-  }, {
-    "name" : "suite",
-    "value" : "BotDetect Captcha"
-  }, {
     "name" : "tag",
-    "value" : "URL"
-  }, {
-    "name" : "story",
-    "value" : "Base Page Elements Verification"
+    "value" : "BotDetect CAPTCHA Demo - Image Styles"
   }, {
     "name" : "tag",
     "value" : "LOGO"
   }, {
-    "name" : "feature",
-    "value" : "BotDetect CAPTCHA Demo - Image Styles Page"
+    "name" : "story",
+    "value" : "Base Page Elements Verification"
+  }, {
+    "name" : "subSuite",
+    "value" : "Positive Tests"
+  }, {
+    "name" : "suite",
+    "value" : "BotDetect Captcha"
+  }, {
+    "name" : "epic",
+    "value" : "BotDetect CAPTCHA"
   }, {
     "name" : "host",
     "value" : "DESKTOP-RJASUD2"
   }, {
     "name" : "thread",
-    "value" : "7964-MainThread"
+    "value" : "11712-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -222,12 +222,97 @@
     "url" : "https://captcha.com/demos/image-styles/captcha-demo.aspx",
     "type" : "link"
   } ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "trivial",
+    "retries" : [ {
+      "uid" : "ca529338dfe2df7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584319118571,
+        "stop" : 1584319137414,
+        "duration" : 18843
+      }
+    }, {
+      "uid" : "33ce96473989cb6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584318191208,
+        "stop" : 1584318211424,
+        "duration" : 20216
+      }
+    }, {
+      "uid" : "bfda878a3cd295d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584317165071,
+        "stop" : 1584317185764,
+        "duration" : 20693
+      }
+    }, {
+      "uid" : "351fd0ff134d007e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584316684737,
+        "stop" : 1584316708688,
+        "duration" : 23951
+      }
+    }, {
+      "uid" : "1e6cb138f799e7f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584315713872,
+        "stop" : 1584315735360,
+        "duration" : 21488
+      }
+    } ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "24f7b75bf2523a9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584318191208,
+          "stop" : 1584318211424,
+          "duration" : 20216
+        }
+      }, {
+        "uid" : "39edfe313ae8bb5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584317165071,
+          "stop" : 1584317185764,
+          "duration" : 20693
+        }
+      }, {
+        "uid" : "b6feebf81a197e47",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584317165071,
+          "stop" : 1584317185764,
+          "duration" : 20693
+        }
+      }, {
+        "uid" : "7da02348b3be34c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584317165071,
+          "stop" : 1584317185764,
+          "duration" : 20693
+        }
+      } ]
+    },
     "tags" : [ "LOGO", "BotDetect CAPTCHA Demo - Image Styles", "URL" ]
   },
-  "source" : "818bda4f622e094.json",
+  "source" : "e85699fe9b6d7975.json",
   "parameterValues" : [ ]
 }

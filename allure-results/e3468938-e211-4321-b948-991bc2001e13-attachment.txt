@@ -1,0 +1,21 @@
+
+Please note: 
+ Message: session not created: This version of ChromeDriver only supports Chrome version 75
+
+ROOT DIR:
+ C:\Users\superadmin\Documents\GitHub\CaptchaRecognition\BotDetectCaptcha
+PATH: C:\Users\superadmin\Documents\GitHub\CaptchaRecognition\BotDetectCaptcha\drivers\chrome\win32\80.0.3987.106\chromedriver.exe
+
+Trying to look for a 'chromedriver' under:
+C:\Users\superadmin\Documents\GitHub\CaptchaRecognition\BotDetectCaptcha\drivers\chrome\win32\80.0.3987.106\chromedriver.exe
+
+base_url: https://captcha.com/
+
+go method > url: https://captcha.com/demos/image-styles/captcha-demo.aspx
+
+URL: https://captcha.com/demos/image-styles/captcha-demo.aspx
+HTTP Status code: 200
+
+Step: Assert web page title
+Expected: BotDetect CAPTCHA Demo - Image Styles
+Actual: BotDetect CAPTCHA Demo - Image Styles
