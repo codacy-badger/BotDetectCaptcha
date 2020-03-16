@@ -16,7 +16,7 @@ os:
 env:
   global:
     # Code Climate's test reporter ID
-    - CC_TEST_REPORTER_ID=1220c3e44c61d93e1fec423cb9d24a920a9015147ffff6deb95f1607d24ef21b
+    - CC_TEST_REPORTER_ID=9cc8a024979648e0ea1d1e65619f25e61dfcf66c9748402fac9ee9a66feb6745
 
 before_install:
   # Source:
