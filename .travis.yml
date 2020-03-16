@@ -33,4 +33,4 @@ script:
    - whereis google-chrome-stable
    - whereis chromedriver
    - whereis geckodriver
-   - pytest --env=production --browser=chrome --env=BotDetectCaptcha --browser=chrome --is_headless=True
+   - pytest --env=production --browser=firefox --env=BotDetectCaptcha --browser=chrome --is_headless=True
