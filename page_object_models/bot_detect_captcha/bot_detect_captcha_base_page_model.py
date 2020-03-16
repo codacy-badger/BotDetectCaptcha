@@ -44,6 +44,7 @@ class BotDetectCaptchaBasePageModel(BasePageModel):
 		Opens test web page
 		:return:
 		"""
+		print('go method > url: {}'.format(self.url))
 		self.driver.get(self.url)
 		self.driver.maximize_window()
 		return None
