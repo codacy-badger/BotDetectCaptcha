@@ -12,6 +12,7 @@
 [![Build Status](https://travis-ci.org/ikostan/BotDetectCaptcha.svg?branch=master)](https://travis-ci.org/ikostan/BotDetectCaptcha)
 [![Maintainability](https://api.codeclimate.com/v1/badges/16060591d3712fec3c85/maintainability)](https://codeclimate.com/github/ikostan/BotDetectCaptcha/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/16060591d3712fec3c85/test_coverage)](https://codeclimate.com/github/ikostan/BotDetectCaptcha/test_coverage)
+[![codecov](https://codecov.io/gh/ikostan/BotDetectCaptcha/branch/master/graph/badge.svg)](https://codecov.io/gh/ikostan/BotDetectCaptcha)
 
 <br/>   
 <div align="center"> 
