@@ -13,6 +13,11 @@ addons:
 os:
   - linux
 
+env:
+  global:
+    # Code Climate's test reporter ID
+    - CC_TEST_REPORTER_ID=1220c3e44c61d93e1fec423cb9d24a920a9015147ffff6deb95f1607d24ef21b
+
 before_install:
   # Source:
   # https://www.youtube.com/watch?v=kxEKygtd2eM
@@ -27,10 +32,32 @@ before_install:
   - export PATH=$PATH:$PWD/geckodriver
 
 install:
-    - pip install -r requirements.txt
+  - "pip install pytest"               # install pytest
+  - "pip install pytest-cov"           # This plugin produces coverage reports
+  - "pip install codecov"              # install codecov
+  - "pip install codacy-coverage"      # Install codacy-coverage
+  - "pip install -r requirements.txt"  # Needed mainly for making Allure work
+
+before_script:  # code coverage tool
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
 
 script:
    - whereis google-chrome-stable
    - whereis chromedriver
    - whereis geckodriver
-   - pytest --env=production --browser=firefox --env=BotDetectCaptcha --is_headless=True
+   - pytest --cov-config=.coveragerc --cov-report term-missing --cov --env=production --browser=firefox --env=BotDetectCaptcha --is_headless=True
+   - mypy --ignore-missing-imports tests
+
+after_script:
+  - coverage xml
+  - if [[ "$TRAVIS_PULL_REQUEST" == "false" && "$TRAVIS_PYTHON_VERSION" == "3.6" ]]; then ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT; fi
+
+after_success:
+  # Generates coverage report, public repo using Travis:
+  # Source: https://dev.to/j0nimost/using-codecov-with-travis-ci-pytest-cov-1dfj
+  - codecov
+  # python codacy coverage
+  # Source: https://github.com/codacy/python-codacy-coverage
+  - python-codacy-coverage -r coverage.xml
