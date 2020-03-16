@@ -31,21 +31,13 @@ class BotDetectCaptchaBasePageModel(BasePageModel):
 
 		self._url = config.base_url + BotDetectCaptchaBasePageContent.URL
 
-	@property
-	def url(self):
-		"""
-		Returns base URL
-		:return:
-		"""
-		return self._url
-
 	def go(self) -> None:
 		"""
 		Opens test web page
 		:return:
 		"""
-		print('go method > url: {}'.format(self.url))
-		self.driver.get(self.url)
+		print('go method > url: {}'.format(self._url))
+		self.driver.get(self._url)
 		self.driver.maximize_window()
 		return None
 
