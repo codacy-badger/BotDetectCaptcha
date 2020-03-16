@@ -3,8 +3,6 @@
 #  LinkedIn: https://www.linkedin.com/in/egor-kostan/
 
 import os
-import os.path
-from os import path
 import shutil
 import platform
 
@@ -25,8 +23,8 @@ def copy_allure_history() -> None:
         DESTINATION_DIR = 'allure-results/history'
 
     if platform.system() == 'Windows':
-        SOURCE_DIR = 'allure-report\history'
-        DESTINATION_DIR = 'allure-results\history'
+        SOURCE_DIR = 'allure-report\\history'
+        DESTINATION_DIR = 'allure-results\\history'
 
     if platform.system() == 'Darwin':
         raise OSError("MAC OS is not supported")
@@ -38,16 +36,10 @@ def copy_allure_history() -> None:
                                          SOURCE_DIR,
                                          DESTINATION_DIR))
 
-    src_files = None
-    directory = CURRENT_DIR + SOURCE_DIR
-    if path.exists(directory):
-        src_files = os.listdir(directory)
-    else:
-        os.makedirs(directory)
-
+    src_files = os.listdir(CURRENT_DIR + SOURCE_DIR)
     for file_name in src_files:
 
-        source_file = os.path.join(directory, file_name)
+        source_file = os.path.join(CURRENT_DIR + SOURCE_DIR, file_name)
         destination_file = os.path.join(CURRENT_DIR + DESTINATION_DIR, file_name)
 
         if os.path.isfile(destination_file):
