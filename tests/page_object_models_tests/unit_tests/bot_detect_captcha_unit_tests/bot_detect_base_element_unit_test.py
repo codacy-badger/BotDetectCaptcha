@@ -86,3 +86,20 @@ class BaseElementUnitTestCase(unittest.TestCase):
 		                act=None,
 		                step_description="Assert web page URL",
 		                click=False)
+
+	def test_bot_detect_captcha_image_styles_demo_title(self):
+		allure.dynamic.description("""
+			Forgot Login Info test case:
+			1. Open 'BotDetect CAPTCHA Demo - Image Styles' web page
+			2. Verify web page title
+			3. Close web browser
+		""")
+		allure.dynamic.title("'BotDetect CAPTCHA Demo - Image Styles' > Title")
+		allure.dynamic.severity(allure.severity_level.MINOR)
+
+		step_definition(self,
+		                expected=BotDetectCaptchaImageStylesDemoPageContent.TITLE,
+		                actual=self.page.title,
+		                act=None,
+		                step_description="Assert web page title",
+		                click=False)
