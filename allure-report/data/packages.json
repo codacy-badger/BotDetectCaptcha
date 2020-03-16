@@ -5,39 +5,39 @@
     "name" : "tests.page_object_models_tests.unit_tests.bot_detect_captcha_unit_tests.bot_detect_base_element_unit_test",
     "children" : [ {
       "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Logo",
-      "uid" : "e85699fe9b6d7975",
+      "uid" : "53af0c1987dd0bbc",
       "parentUid" : "4817ead35761b059c0c679518895179f",
       "status" : "passed",
       "time" : {
-        "start" : 1584319399310,
-        "stop" : 1584319420470,
-        "duration" : 21160
+        "start" : 1584321293590,
+        "stop" : 1584321315907,
+        "duration" : 22317
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Title",
-      "uid" : "de26079d3bebb3ba",
+      "uid" : "8c2d7bc9de571100",
       "parentUid" : "4817ead35761b059c0c679518895179f",
       "status" : "passed",
       "time" : {
-        "start" : 1584319420490,
-        "stop" : 1584319441258,
-        "duration" : 20768
+        "start" : 1584321315919,
+        "stop" : 1584321336713,
+        "duration" : 20794
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "'BotDetect CAPTCHA Demo - Image Styles' > URL",
-      "uid" : "2741ee782fe9426d",
+      "uid" : "4465fa416e8a87af",
       "parentUid" : "4817ead35761b059c0c679518895179f",
       "status" : "passed",
       "time" : {
-        "start" : 1584319441276,
-        "stop" : 1584319465096,
-        "duration" : 23820
+        "start" : 1584321336726,
+        "stop" : 1584321362951,
+        "duration" : 26225
       },
       "flaky" : false,
       "newFailed" : false,

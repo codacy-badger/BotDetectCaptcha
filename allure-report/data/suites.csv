@@ -1,19 +1,19 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Mar 15 17:43:40 PDT 2020","Sun Mar 15 17:44:01 PDT 2020","20768","Unit","BotDetect Captcha","Positive Tests","","","'BotDetect CAPTCHA Demo - Image Styles' > Title","
-			Forgot Login Info test case:
-			1. Open 'BotDetect CAPTCHA Demo - Image Styles' web page
-			2. Verify web page title
-			3. Close web browser
-		"
-"passed","Sun Mar 15 17:44:01 PDT 2020","Sun Mar 15 17:44:25 PDT 2020","23820","Unit","BotDetect Captcha","Positive Tests","","","'BotDetect CAPTCHA Demo - Image Styles' > URL","
+"passed","Sun Mar 15 18:15:36 PDT 2020","Sun Mar 15 18:16:02 PDT 2020","26225","Unit","BotDetect Captcha","Positive Tests","","","'BotDetect CAPTCHA Demo - Image Styles' > URL","
 			Forgot Login Info test case:
 			1. Open 'BotDetect CAPTCHA Demo - Image Styles' web page
 			2. Verify web page URL
 			3. Close web browser
 		"
-"passed","Sun Mar 15 17:43:19 PDT 2020","Sun Mar 15 17:43:40 PDT 2020","21160","Unit","BotDetect Captcha","Positive Tests","","","'BotDetect CAPTCHA Demo - Image Styles' > Logo","
+"passed","Sun Mar 15 18:14:53 PDT 2020","Sun Mar 15 18:15:15 PDT 2020","22317","Unit","BotDetect Captcha","Positive Tests","","","'BotDetect CAPTCHA Demo - Image Styles' > Logo","
 			Forgot Login Info test case:
 			1. Open 'BotDetect CAPTCHA Demo - Image Styles' web page
 			2. Verify web page logo is not null
+			3. Close web browser
+		"
+"passed","Sun Mar 15 18:15:15 PDT 2020","Sun Mar 15 18:15:36 PDT 2020","20794","Unit","BotDetect Captcha","Positive Tests","","","'BotDetect CAPTCHA Demo - Image Styles' > Title","
+			Forgot Login Info test case:
+			1. Open 'BotDetect CAPTCHA Demo - Image Styles' web page
+			2. Verify web page title
 			3. Close web browser
 		"

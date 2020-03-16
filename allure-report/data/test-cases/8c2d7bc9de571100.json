@@ -1,12 +1,12 @@
 {
-  "uid" : "de26079d3bebb3ba",
+  "uid" : "8c2d7bc9de571100",
   "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Title",
   "fullName" : "tests.page_object_models_tests.unit_tests.bot_detect_captcha_unit_tests.bot_detect_base_element_unit_test.BaseElementUnitTestCase#test_bot_detect_captcha_image_styles_demo_title",
   "historyId" : "8653a3028d68fa27cb214f9f5815891d",
   "time" : {
-    "start" : 1584319420490,
-    "stop" : 1584319441258,
-    "duration" : 20768
+    "start" : 1584321315919,
+    "stop" : 1584321336713,
+    "duration" : 20794
   },
   "description" : "\n\t\t\tForgot Login Info test case:\n\t\t\t1. Open 'BotDetect CAPTCHA Demo - Image Styles' web page\n\t\t\t2. Verify web page title\n\t\t\t3. Close web browser\n\t\t",
   "descriptionHtml" : "<pre><code>\t\tForgot Login Info test case:\n\t\t1. Open 'BotDetect CAPTCHA Demo - Image Styles' web page\n\t\t2. Verify web page title\n\t\t3. Close web browser\n</code></pre>\n",
@@ -16,17 +16,17 @@
   "beforeStages" : [ {
     "name" : "_UnitTestCase__pytest_class_setup",
     "time" : {
-      "start" : 1584319399306,
-      "stop" : 1584319399306,
-      "duration" : 0
+      "start" : 1584321293587,
+      "stop" : 1584321293588,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Set up initial configs",
       "time" : {
-        "start" : 1584319399306,
-        "stop" : 1584319399306,
-        "duration" : 0
+        "start" : 1584321293587,
+        "stop" : 1584321293588,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,15 +34,15 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 1,
     "hasContent" : true,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "testStage" : {
     "description" : "\n\t\t\tForgot Login Info test case:\n\t\t\t1. Open 'BotDetect CAPTCHA Demo - Image Styles' web page\n\t\t\t2. Verify web page title\n\t\t\t3. Close web browser\n\t\t",
@@ -50,25 +50,25 @@
     "steps" : [ {
       "name" : "Initial data setup: demos/image-styles/captcha-demo.aspx",
       "time" : {
-        "start" : 1584319420490,
-        "stop" : 1584319441083,
-        "duration" : 20593
+        "start" : 1584321315919,
+        "stop" : 1584321336520,
+        "duration" : 20601
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Open web browser",
         "time" : {
-          "start" : 1584319420491,
-          "stop" : 1584319441083,
-          "duration" : 20592
+          "start" : 1584321315919,
+          "stop" : 1584321336520,
+          "duration" : 20601
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Open following web page: demos/image-styles/captcha-demo.aspx.",
           "time" : {
-            "start" : 1584319420491,
-            "stop" : 1584319441083,
-            "duration" : 20592
+            "start" : 1584321315919,
+            "stop" : 1584321336520,
+            "duration" : 20601
           },
           "status" : "passed",
           "steps" : [ ],
@@ -76,27 +76,27 @@
           "parameters" : [ ],
           "stepsCount" : 0,
           "hasContent" : false,
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
         "stepsCount" : 1,
         "hasContent" : true,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
       "stepsCount" : 2,
       "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Assert web page title",
       "time" : {
-        "start" : 1584319441091,
-        "stop" : 1584319441091,
+        "start" : 1584321336525,
+        "stop" : 1584321336525,
         "duration" : 0
       },
       "status" : "passed",
@@ -105,14 +105,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Close current tab",
       "time" : {
-        "start" : 1584319441091,
-        "stop" : 1584319441257,
-        "duration" : 166
+        "start" : 1584321336525,
+        "stop" : 1584321336712,
+        "duration" : 187
       },
       "status" : "passed",
       "steps" : [ ],
@@ -120,35 +120,35 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ {
-      "uid" : "6fdb98b5c1eb04ea",
+      "uid" : "910270efdd938618",
       "name" : "stdout",
-      "source" : "6fdb98b5c1eb04ea.txt",
+      "source" : "910270efdd938618.txt",
       "type" : "text/plain",
       "size" : 807
     } ],
     "parameters" : [ ],
     "stepsCount" : 5,
     "hasContent" : true,
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
   },
   "afterStages" : [ {
     "name" : "_UnitTestCase__pytest_class_setup::0",
     "time" : {
-      "start" : 1584319465101,
-      "stop" : 1584319465101,
+      "start" : 1584321362954,
+      "stop" : 1584321362954,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Close Web Browser",
       "time" : {
-        "start" : 1584319465101,
-        "stop" : 1584319465101,
+        "start" : 1584321362954,
+        "stop" : 1584321362954,
         "duration" : 0
       },
       "status" : "passed",
@@ -157,28 +157,19 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 1,
     "hasContent" : true,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "severity",
     "value" : "minor"
-  }, {
-    "name" : "tag",
-    "value" : "URL"
-  }, {
-    "name" : "feature",
-    "value" : "BotDetect CAPTCHA Demo - Image Styles Page"
-  }, {
-    "name" : "parentSuite",
-    "value" : "Unit"
   }, {
     "name" : "tag",
     "value" : "BotDetect CAPTCHA Demo - Image Styles"
@@ -186,23 +177,32 @@
     "name" : "tag",
     "value" : "LOGO"
   }, {
-    "name" : "story",
-    "value" : "Base Page Elements Verification"
-  }, {
     "name" : "subSuite",
     "value" : "Positive Tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Unit"
+  }, {
+    "name" : "feature",
+    "value" : "BotDetect CAPTCHA Demo - Image Styles Page"
+  }, {
+    "name" : "epic",
+    "value" : "BotDetect CAPTCHA"
   }, {
     "name" : "suite",
     "value" : "BotDetect Captcha"
   }, {
-    "name" : "epic",
-    "value" : "BotDetect CAPTCHA"
+    "name" : "story",
+    "value" : "Base Page Elements Verification"
+  }, {
+    "name" : "tag",
+    "value" : "URL"
   }, {
     "name" : "host",
     "value" : "DESKTOP-RJASUD2"
   }, {
     "name" : "thread",
-    "value" : "11712-MainThread"
+    "value" : "2156-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -227,7 +227,15 @@
   "extra" : {
     "severity" : "minor",
     "retries" : [ {
-      "uid" : "58f7709e824b84cb",
+      "uid" : "4b7c6e6c5b2b233a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584319420490,
+        "stop" : 1584319441258,
+        "duration" : 20768
+      }
+    }, {
+      "uid" : "993b3dc5e5cc0972",
       "status" : "passed",
       "time" : {
         "start" : 1584319137436,
@@ -235,7 +243,7 @@
         "duration" : 19209
       }
     }, {
-      "uid" : "adcfbbb0479b357c",
+      "uid" : "3bd245141b3e468e",
       "status" : "passed",
       "time" : {
         "start" : 1584318211445,
@@ -243,7 +251,7 @@
         "duration" : 24211
       }
     }, {
-      "uid" : "3f9112f5fa2e53d1",
+      "uid" : "24867ffb5e9c9938",
       "status" : "passed",
       "time" : {
         "start" : 1584317185797,
@@ -251,7 +259,7 @@
         "duration" : 20833
       }
     }, {
-      "uid" : "414a3e8e6bf5c4f3",
+      "uid" : "b4ca99f713e0c668",
       "status" : "passed",
       "time" : {
         "start" : 1584316708698,
@@ -265,11 +273,27 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 5,
+        "passed" : 7,
         "unknown" : 0,
-        "total" : 5
+        "total" : 7
       },
       "items" : [ {
+        "uid" : "d865cf1a4cbe3998",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584319420490,
+          "stop" : 1584319441258,
+          "duration" : 20768
+        }
+      }, {
+        "uid" : "de26079d3bebb3ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584319420490,
+          "stop" : 1584319441258,
+          "duration" : 20768
+        }
+      }, {
         "uid" : "1088bf00dacced77",
         "status" : "passed",
         "time" : {
@@ -293,18 +317,10 @@
           "stop" : 1584317206630,
           "duration" : 20833
         }
-      }, {
-        "uid" : "51c6bdd6ba29b528",
-        "status" : "passed",
-        "time" : {
-          "start" : 1584317185797,
-          "stop" : 1584317206630,
-          "duration" : 20833
-        }
       } ]
     },
     "tags" : [ "LOGO", "BotDetect CAPTCHA Demo - Image Styles", "URL" ]
   },
-  "source" : "de26079d3bebb3ba.json",
+  "source" : "8c2d7bc9de571100.json",
   "parameterValues" : [ ]
 }

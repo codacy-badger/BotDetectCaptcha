@@ -4,182 +4,53 @@
   "children" : [ {
     "name" : "DESKTOP-RJASUD2",
     "children" : [ {
-      "name" : "10856-MainThread",
-      "children" : [ {
-        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Title",
-        "uid" : "adcfbbb0479b357c",
-        "parentUid" : "2817386c61724f2cb86fca94544cb506",
-        "status" : "passed",
-        "time" : {
-          "start" : 1584318211445,
-          "stop" : 1584318235656,
-          "duration" : 24211
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > URL",
-        "uid" : "971863bb99d9e70f",
-        "parentUid" : "2817386c61724f2cb86fca94544cb506",
-        "status" : "passed",
-        "time" : {
-          "start" : 1584318235666,
-          "stop" : 1584318259398,
-          "duration" : 23732
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Logo",
-        "uid" : "33ce96473989cb6a",
-        "parentUid" : "2817386c61724f2cb86fca94544cb506",
-        "status" : "passed",
-        "time" : {
-          "start" : 1584318191208,
-          "stop" : 1584318211424,
-          "duration" : 20216
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "2817386c61724f2cb86fca94544cb506"
-    }, {
-      "name" : "5260-MainThread",
+      "name" : "2156-MainThread",
       "children" : [ {
         "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Logo",
-        "uid" : "351fd0ff134d007e",
-        "parentUid" : "6b3691e0cfc3d9c6f6e61a602dcb44f8",
+        "uid" : "53af0c1987dd0bbc",
+        "parentUid" : "20561db141ad1d627e0fb8ad8982fef0",
         "status" : "passed",
         "time" : {
-          "start" : 1584316684737,
-          "stop" : 1584316708688,
-          "duration" : 23951
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > URL",
-        "uid" : "d5ebc9f0ba629336",
-        "parentUid" : "6b3691e0cfc3d9c6f6e61a602dcb44f8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1584316728884,
-          "stop" : 1584316751266,
-          "duration" : 22382
+          "start" : 1584321293590,
+          "stop" : 1584321315907,
+          "duration" : 22317
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Title",
-        "uid" : "414a3e8e6bf5c4f3",
-        "parentUid" : "6b3691e0cfc3d9c6f6e61a602dcb44f8",
+        "uid" : "8c2d7bc9de571100",
+        "parentUid" : "20561db141ad1d627e0fb8ad8982fef0",
         "status" : "passed",
         "time" : {
-          "start" : 1584316708698,
-          "stop" : 1584316728865,
-          "duration" : 20167
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "6b3691e0cfc3d9c6f6e61a602dcb44f8"
-    }, {
-      "name" : "9264-MainThread",
-      "children" : [ {
-        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Logo",
-        "uid" : "1e6cb138f799e7f6",
-        "parentUid" : "5a8f1b1a56e5f7ebbf2cce86720c7e28",
-        "status" : "passed",
-        "time" : {
-          "start" : 1584315713872,
-          "stop" : 1584315735360,
-          "duration" : 21488
+          "start" : 1584321315919,
+          "stop" : 1584321336713,
+          "duration" : 20794
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "'BotDetect CAPTCHA Demo - Image Styles' > URL",
-        "uid" : "31f2e51a0d2cd82d",
-        "parentUid" : "5a8f1b1a56e5f7ebbf2cce86720c7e28",
+        "uid" : "4465fa416e8a87af",
+        "parentUid" : "20561db141ad1d627e0fb8ad8982fef0",
         "status" : "passed",
         "time" : {
-          "start" : 1584315735372,
-          "stop" : 1584315755261,
-          "duration" : 19889
+          "start" : 1584321336726,
+          "stop" : 1584321362951,
+          "duration" : 26225
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5a8f1b1a56e5f7ebbf2cce86720c7e28"
-    }, {
-      "name" : "11712-MainThread",
-      "children" : [ {
-        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Logo",
-        "uid" : "e85699fe9b6d7975",
-        "parentUid" : "92f8da9efebb70ad2eeedf45a605c365",
-        "status" : "passed",
-        "time" : {
-          "start" : 1584319399310,
-          "stop" : 1584319420470,
-          "duration" : 21160
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > URL",
-        "uid" : "2741ee782fe9426d",
-        "parentUid" : "92f8da9efebb70ad2eeedf45a605c365",
-        "status" : "passed",
-        "time" : {
-          "start" : 1584319441276,
-          "stop" : 1584319465096,
-          "duration" : 23820
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Title",
-        "uid" : "de26079d3bebb3ba",
-        "parentUid" : "92f8da9efebb70ad2eeedf45a605c365",
-        "status" : "passed",
-        "time" : {
-          "start" : 1584319420490,
-          "stop" : 1584319441258,
-          "duration" : 20768
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "92f8da9efebb70ad2eeedf45a605c365"
+      "uid" : "20561db141ad1d627e0fb8ad8982fef0"
     }, {
       "name" : "7964-MainThread",
       "children" : [ {
-        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Logo",
-        "uid" : "bfda878a3cd295d2",
-        "parentUid" : "00cc5b0cafa44ba462a178f16b133348",
-        "status" : "passed",
-        "time" : {
-          "start" : 1584317165071,
-          "stop" : 1584317185764,
-          "duration" : 20693
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Title",
-        "uid" : "3f9112f5fa2e53d1",
+        "uid" : "24867ffb5e9c9938",
         "parentUid" : "00cc5b0cafa44ba462a178f16b133348",
         "status" : "passed",
         "time" : {
@@ -192,7 +63,7 @@
         "parameters" : [ ]
       }, {
         "name" : "'BotDetect CAPTCHA Demo - Image Styles' > URL",
-        "uid" : "a21c67e88a026243",
+        "uid" : "8dd9081025eac416",
         "parentUid" : "00cc5b0cafa44ba462a178f16b133348",
         "status" : "passed",
         "time" : {
@@ -203,26 +74,155 @@
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Logo",
+        "uid" : "6a18fc64dd5df48d",
+        "parentUid" : "00cc5b0cafa44ba462a178f16b133348",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584317165071,
+          "stop" : 1584317185764,
+          "duration" : 20693
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
       } ],
       "uid" : "00cc5b0cafa44ba462a178f16b133348"
     }, {
-      "name" : "10340-MainThread",
+      "name" : "5260-MainThread",
       "children" : [ {
-        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > URL",
-        "uid" : "1641bde3deed2331",
-        "parentUid" : "d7259b3bb3e584dbcfae7ee641b0182f",
+        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Title",
+        "uid" : "b4ca99f713e0c668",
+        "parentUid" : "6b3691e0cfc3d9c6f6e61a602dcb44f8",
         "status" : "passed",
         "time" : {
-          "start" : 1584319156664,
-          "stop" : 1584319178574,
-          "duration" : 21910
+          "start" : 1584316708698,
+          "stop" : 1584316728865,
+          "duration" : 20167
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Logo",
-        "uid" : "ca529338dfe2df7e",
+        "uid" : "702b0cc87198bbc0",
+        "parentUid" : "6b3691e0cfc3d9c6f6e61a602dcb44f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584316684737,
+          "stop" : 1584316708688,
+          "duration" : 23951
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > URL",
+        "uid" : "826fc43a4b06c6c2",
+        "parentUid" : "6b3691e0cfc3d9c6f6e61a602dcb44f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584316728884,
+          "stop" : 1584316751266,
+          "duration" : 22382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6b3691e0cfc3d9c6f6e61a602dcb44f8"
+    }, {
+      "name" : "11712-MainThread",
+      "children" : [ {
+        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Title",
+        "uid" : "4b7c6e6c5b2b233a",
+        "parentUid" : "92f8da9efebb70ad2eeedf45a605c365",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584319420490,
+          "stop" : 1584319441258,
+          "duration" : 20768
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Logo",
+        "uid" : "46f0b4cf4421ccec",
+        "parentUid" : "92f8da9efebb70ad2eeedf45a605c365",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584319399310,
+          "stop" : 1584319420470,
+          "duration" : 21160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > URL",
+        "uid" : "6282c28a4bd6cc69",
+        "parentUid" : "92f8da9efebb70ad2eeedf45a605c365",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584319441276,
+          "stop" : 1584319465096,
+          "duration" : 23820
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "92f8da9efebb70ad2eeedf45a605c365"
+    }, {
+      "name" : "10856-MainThread",
+      "children" : [ {
+        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Logo",
+        "uid" : "147898b88bcf379",
+        "parentUid" : "2817386c61724f2cb86fca94544cb506",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584318191208,
+          "stop" : 1584318211424,
+          "duration" : 20216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Title",
+        "uid" : "3bd245141b3e468e",
+        "parentUid" : "2817386c61724f2cb86fca94544cb506",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584318211445,
+          "stop" : 1584318235656,
+          "duration" : 24211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > URL",
+        "uid" : "6b617cf1f05ba474",
+        "parentUid" : "2817386c61724f2cb86fca94544cb506",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584318235666,
+          "stop" : 1584318259398,
+          "duration" : 23732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2817386c61724f2cb86fca94544cb506"
+    }, {
+      "name" : "10340-MainThread",
+      "children" : [ {
+        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Logo",
+        "uid" : "ead65ec9ec25e8e2",
         "parentUid" : "d7259b3bb3e584dbcfae7ee641b0182f",
         "status" : "passed",
         "time" : {
@@ -235,7 +235,7 @@
         "parameters" : [ ]
       }, {
         "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Title",
-        "uid" : "58f7709e824b84cb",
+        "uid" : "993b3dc5e5cc0972",
         "parentUid" : "d7259b3bb3e584dbcfae7ee641b0182f",
         "status" : "passed",
         "time" : {
@@ -246,8 +246,51 @@
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > URL",
+        "uid" : "e8e0a32dec2e13e6",
+        "parentUid" : "d7259b3bb3e584dbcfae7ee641b0182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584319156664,
+          "stop" : 1584319178574,
+          "duration" : 21910
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
       } ],
       "uid" : "d7259b3bb3e584dbcfae7ee641b0182f"
+    }, {
+      "name" : "9264-MainThread",
+      "children" : [ {
+        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > Logo",
+        "uid" : "728d7edc2ee49309",
+        "parentUid" : "5a8f1b1a56e5f7ebbf2cce86720c7e28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584315713872,
+          "stop" : 1584315735360,
+          "duration" : 21488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "'BotDetect CAPTCHA Demo - Image Styles' > URL",
+        "uid" : "151896ac6d83abfd",
+        "parentUid" : "5a8f1b1a56e5f7ebbf2cce86720c7e28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584315735372,
+          "stop" : 1584315755261,
+          "duration" : 19889
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5a8f1b1a56e5f7ebbf2cce86720c7e28"
     } ],
     "uid" : "2652cca0e38bdc0f407bb8ece854fbdb"
   } ]
