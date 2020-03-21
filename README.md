@@ -13,10 +13,6 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2f90a293803642558cdbf73602376ad3)](https://www.codacy.com/manual/ikostan/BotDetectCaptcha?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ikostan/BotDetectCaptcha&amp;utm_campaign=Badge_Grade)
 
 
-
-[![Maintainability](https://api.codeclimate.com/v1/badges/16060591d3712fec3c85/maintainability)](https://codeclimate.com/github/ikostan/BotDetectCaptcha/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/16060591d3712fec3c85/test_coverage)](https://codeclimate.com/github/ikostan/BotDetectCaptcha/test_coverage)
-
 <br/>   
 <div align="center"> 
 <img width="10%" height="10%" src="https://github.com/ikostan/BotDetectCaptcha/blob/master/img/python_logo.PNG" hspace="20">
