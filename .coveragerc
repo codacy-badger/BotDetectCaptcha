@@ -1,0 +1,17 @@
+
+[run]
+# omit anything in a virtualenv directory anywhere
+omit =
+    /home/travis/virtualenv/*
+    /home/travis/img/*
+    /home/travis/.github/*
+    /home/travis/allure-report/*
+    /home/travis/allure-results/*
+    /home/travis/captcha_images/*
+    /home/travis/drivers/*
+    /home/travis/software/*
+    /home/travis/venv/*
+    *.yml
+    __init__*
+    *.md
+    docs/*
