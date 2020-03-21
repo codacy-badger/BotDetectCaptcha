@@ -40,5 +40,5 @@ script:
    - whereis google-chrome-stable
    - whereis chromedriver
    - whereis geckodriver
-   - pytest --env=BotDetectCaptcha --browser=chrome --is_headless=True -v
+   - pytest --env=BotDetectCaptcha --browser=chrome --is_headless=True
    - mypy --ignore-missing-imports tests
