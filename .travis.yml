@@ -32,27 +32,11 @@ before_install:
   - export PATH=$PATH:$PWD/geckodriver
 
 install:
-  - "pip install pytest"               # install pytest
-  - "pip install pytest-cov"           # This plugin produces coverage reports
-  - "pip install codecov"              # install codecov
-  - "pip install codacy-coverage"      # Install codacy-coverage
   - "pip install -r requirements.txt"  # Needed mainly for making Allure work
 
 script:
    - whereis google-chrome-stable
    - whereis chromedriver
    - whereis geckodriver
-   - pytest --cov-config=.coveragerc --cov-report term-missing --cov --env=production --browser=firefox --env=BotDetectCaptcha --is_headless=True
+   - pytest --env=production --browser=firefox --env=BotDetectCaptcha --is_headless=True
    - mypy --ignore-missing-imports tests
-
-after_script:
-  - coverage xml
-  - if [[ "$TRAVIS_PULL_REQUEST" == "false" && "$TRAVIS_PYTHON_VERSION" == "3.6" ]]; then ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT; fi
-
-after_success:
-  # Generates coverage report, public repo using Travis:
-  # Source: https://dev.to/j0nimost/using-codecov-with-travis-ci-pytest-cov-1dfj
-  - codecov
-  # python codacy coverage
-  # Source: https://github.com/codacy/python-codacy-coverage
-  - python-codacy-coverage -r coverage.xml
