@@ -32,11 +32,13 @@ before_install:
   - export PATH=$PATH:$PWD/geckodriver
 
 install:
+  - "pip install pytest"               # install pytest
+  - "pip install pytest-cov"           # This plugin produces coverage reports
   - "pip install -r requirements.txt"  # Needed mainly for making Allure work
 
 script:
    - whereis google-chrome-stable
    - whereis chromedriver
    - whereis geckodriver
-   - pytest --env=production --browser=firefox --env=BotDetectCaptcha --is_headless=True
+   - pytest --env=BotDetectCaptcha --browser=chrome --is_headless=False -v --alluredir=allure-results
    - mypy --ignore-missing-imports tests
