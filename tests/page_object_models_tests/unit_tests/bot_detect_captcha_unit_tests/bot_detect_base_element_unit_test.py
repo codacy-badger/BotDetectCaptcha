@@ -6,12 +6,12 @@ import unittest
 import allure
 from tests.config import Config
 from utils.screenshot import screenshot_on_fail
+from utils.step_definition import step_definition
 from utils.open_web_browser import open_web_browser
 from page_object_models.bot_detect_captcha.bot_detect_captcha_image_styles_demo_page_model import \
 	BotDetectCaptchaImageStylesDemoModel
 from expected_results.page_content.bot_detect_captcha_content.bot_detect_captcha_image_styles_demo_content import \
 	BotDetectCaptchaImageStylesDemoPageContent
-from utils.step_definition import step_definition
 
 
 @allure.epic('BotDetect CAPTCHA')
