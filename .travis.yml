@@ -47,3 +47,8 @@ script:
 after_script:
   - coverage xml
   - if [[ "$TRAVIS_PULL_REQUEST" == "false" && "$TRAVIS_PYTHON_VERSION" == "3.7" ]]; then ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT; fi
+
+after_success:
+  # Generates coverage report, public repo using Travis:
+  # Source: https://dev.to/j0nimost/using-codecov-with-travis-ci-pytest-cov-1dfj
+  - codecov
