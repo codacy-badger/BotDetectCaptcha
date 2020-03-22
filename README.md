@@ -489,3 +489,37 @@ This fix worked for me (but as of 26-Jan-2020 you have to wipe out the environme
 
 [Source](https://stackoverflow.com/questions/59846065/read-the-docs-build-fails-with-cannot-import-name-packagefinder-from-pip-in)
 </details>
+
+<details>
+  <summary><b>Using Codecov With Travis-CI (pytest-cov)</b></summary>
+    
+<br/>   
+<div align="center"> 
+<img src="https://github.com/ikostan/BotDetectCaptcha/blob/master/img/codecov.png" hspace="20">
+</div>
+<br/>
+
+Continuous Integration has brought about so much ease in ensuring quality code is pushed. Making developer lives easier, but it doesn't end there, testing is just a part of bigger picture. We also need to capture the test coverage, we want to assess the quality of our code by ensuring our tests meet the minimum threshold. For this we turn to pytest-cov.
+Since we have Travis-CI already set up for our python project, let's add CodeCov to ensure we generate coverage reports from `.travis.yml`. To connect Github to Codecov is as easy as signing up with our Github account.
+
+We can now proceed to our local machine and install pytest-cov, just by running `pip install pytest-cov pytest` then add codecov tool `pip install codecov`.
+Generate a new requirements file, simply `run pip freeze > requirements.txt`
+
+Afterwards, we open your `.travis.yml` file and add:
+
+```text
+   install:
+    - pip install -r requirements.txt
+
+   script:
+    - py.test  --cov-report term --cov=app/test/
+
+   env:
+    - CODECOV_TOKEN=<token>#IF ONLY YOU HAVE A PRIVATE REPOSITORY
+
+   after_success:
+    - codecov
+```
+
+[Source](https://dev.to/j0nimost/using-codecov-with-travis-ci-pytest-cov-1dfj)
+</details>
