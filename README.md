@@ -7,6 +7,7 @@
 ![GitHub issues](https://img.shields.io/github/issues-raw/ikostan/BotDetectCaptcha)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/ikostan/BotDetectCaptcha)
 [![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
+<a href="https://dependabot.com" rel="nofollow"><img src="https://camo.githubusercontent.com/35a144257b9aec7d472244f972d918c3926d5518/68747470733a2f2f6170692e646570656e6461626f742e636f6d2f6261646765732f7374617475733f686f73743d676974687562267265706f3d79737331342f6d757369637368617265" alt="Dependabot Status" data-canonical-src="https://api.dependabot.com/badges/status?host=github&repo=ikostan/BotDetectCaptcha" style="max-width:100%;"></a>
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ad3093c1-2604-4a11-9cdc-ca727460baa7/deploy-status)](https://app.netlify.com/sites/captcha-recognition-bot-allure-report/deploys)
 [![Build Status](https://travis-ci.org/ikostan/BotDetectCaptcha.svg?branch=master)](https://travis-ci.org/ikostan/BotDetectCaptcha)
 [![codecov](https://codecov.io/gh/ikostan/BotDetectCaptcha/branch/master/graph/badge.svg)](https://codecov.io/gh/ikostan/BotDetectCaptcha)
