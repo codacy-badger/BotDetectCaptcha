@@ -34,6 +34,7 @@ before_install:
 install:
   - "pip install pytest"               # install pytest
   - "pip install pytest-cov"           # This plugin produces coverage reports
+  - "pip install codecov"              # install codecov
   - "pip install -r requirements.txt"  # Needed mainly for making Allure work
 
 script:
@@ -42,3 +43,7 @@ script:
    - whereis geckodriver
    - pytest --env=BotDetectCaptcha --browser=chrome --is_headless=True --cov-config=.coveragerc --cov-report term-missing --cov
    - mypy --ignore-missing-imports tests
+
+after_script:
+  - coverage xml
+  - if [[ "$TRAVIS_PULL_REQUEST" == "false" && "$TRAVIS_PYTHON_VERSION" == "3.7" ]]; then ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT; fi
